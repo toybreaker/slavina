@@ -3,7 +3,7 @@
 //rok&scroll
 $font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 
-$brand_color: hsla(47, 100%, 50%, 1); // rgb(255, 198, 0); #ffc600
+$brand_color: white; 
 $complement_brand_color: lighten(complement($brand_color), 30);
 $invert_brand_color: lighten(invert($brand_color), 30);
 
@@ -16,7 +16,7 @@ $underline_link_color : $brand_color;
 
 $product_category_1: hsla(205, 100%, 75%, .75);
 $product_category_2: hsla(205, 100%, 85%, .75);
-$product_category_3: hsla(205, 100%, 94%, .75);  
+$product_category_3: hsla(205, 100%, 94%, .75);
 
 $vertical_rhythm: 2rem;
 $vertical_rhythm--small: 1rem;

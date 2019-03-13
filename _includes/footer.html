@@ -9,29 +9,9 @@
 
       <div class="menu_products boats" role="menu">
 
-        <div class="title">Destinations</div>
+        <div class="title">Series</div>
 
-        {% for item in site.destinations %}
-
-          {% if page.url contains item.url %}
-            {% unless item.publish=="notyet" %}
-            <a class="menu_item active" role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="">{{ item.title }}</span>
-            </a>
-            {% endunless %}
-          {% else %}
-            {% unless item.publish=="notyet" %}
-            <a class="menu_item " role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="page_title">{{ item.title }}</span>
-            </a>
-            {% endunless %}
-          {% endif %}
-
-        {% endfor %}
-
-        <div class="title">Boats</div>
-
-        {% for item in site.boats %}
+        {% for item in site.series %}
 
           {% if page.url contains item.url %}
             {% unless item.publish=="notyet" %}
@@ -49,26 +29,6 @@
 
         {% endfor %}
 
-
-        <div class="title">Details</div>
-
-        {% for item in site.pages %}
-
-          {% if page.url contains item.url %}
-            {% unless item.publish=="notyet" %}
-            <a class="menu_item active" role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="">{{ item.title }}</span>
-            </a>
-            {% endunless %}
-          {% else %}
-            {% unless item.publish=="notyet" %}
-            <a class="menu_item " role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="page_title">{{ item.title }}</span>
-            </a>
-            {% endunless %}
-          {% endif %}
-
-        {% endfor %}
 
       </div>
 
