@@ -1,0 +1,33 @@
+<div class="summary">
+
+  <div class="container boat_summary">
+
+     {% include svg/use.html id="icn--ticket" class="ticket" %}
+
+    <h1 class="center">OUR STANDARD TRIP INCLUDES {{ page.trip_includes | upcase }}</h1>
+
+    <hr>
+
+    <h3 class="center">PRICE PER PERSON {{ page.price | upcase }}</h3>
+
+    <h4 class="center">EXTRA DAY {{ page.extra_day | upcase }} PER PERSON</h4>
+
+    <h4 class="center">MIN {{ page.min_people | upcase }} PEOPLE, MAX {{ page.max_people | upcase }} PEOPLE</h4>
+
+    {% if page.jetski %}
+     {% include jetski_block.html %}
+    {% endif %}
+
+    <div class="booking_block">
+
+      <h2 class="center">Reserve your place on <br class="maybe_break"> {{ page.title }}</h2>
+
+      <div class="button_row book_now center">
+        <a class="button" href="mailto:{{site.company.email}}">BOOK NOW</a>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>

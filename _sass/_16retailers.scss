@@ -1,0 +1,38 @@
+.retailers {
+  display: block;
+  padding: $vertical_rhythm 0;
+  width: 100%;
+  background-color: lighten($grey--light, 6);
+  .title {
+    padding-bottom: $vertical_rhythm;
+  }
+  a {
+    //border-bottom: 1px solid $grey;
+  }
+
+  svg {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+  }
+}
+
+.retailer_maplink {
+  padding-bottom: $vertical_rhythm--small;
+  display: flex;
+  align-items: center;
+}
+
+.retailer_name,
+.retailer_location,
+.retailer_city,
+.retailer_address,
+.retailer_telephone,
+.retailer_map_icon {
+  display: inline-block;
+}
+
+
+.retailer_name {
+  font-weight: $font_weight--reg;
+}

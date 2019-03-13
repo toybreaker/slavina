@@ -1,0 +1,44 @@
+<script type="text/javascript">
+  var app = new Vue({
+      el: '#{{include.bookingsheet}}',
+      mounted() {
+          let vm = this
+
+          //testing
+          //https://forum.vuejs.org/t/vue-js-axios-ondownloadprogress-update-data/20642
+          let config = {
+            onDownloadProgress: function (progressEvent) {
+              let currentProgress = Math.round((progressEvent.loaded * 100) / progressEvent.total);
+
+              vm.percentCompleted = currentProgress;
+            }
+          }
+          //endtesting
+
+          axios
+              .get(
+                  'https://sheets.googleapis.com/v4/spreadsheets/1N4y23Fqk8Ukl7_NODHUkKlTG0NPGWAThb9zoNU3FmBg/values/{{include.bookingsheet}}!A2:E24?key=AIzaSyDMUuAGNCIvUQJ4Zmwijqj8UsnZUEuqRN4'
+              )
+              .then(function (response) {
+                  let bookings = response.data.values
+                  for (let index = 0; index < bookings.length; index++) {
+                      const element = bookings[index]
+                      let mitem = {
+                        dates: element[0],
+                        available: element[1],
+                        reserved: element[2],
+                        info: element[3],
+                        full: element[4]
+                      }
+                      vm.charters = vm.charters.concat(mitem)
+                  }
+                  console.log(response)
+              })
+      },
+      data: {
+          charters: [],
+          percentCompleted: []
+      },
+      computed: {}
+  });
+</script>

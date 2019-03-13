@@ -1,0 +1,44 @@
+<div class="container destinations_block">
+
+  <div class="product_page_title">
+    <h2 class="center uppercase">Destinations</h2>
+    <h3 class="center">Dream waves, at the most consistent and perfect surf spots on the planet.</h3>
+
+  </div>
+
+  <p>On any given trip, you can surf the waves of your life at any of the world class spots around the Mentawai archipelago. We make sure we take you, at the right time, at the right place, to your dream wave, considering your level of surfing. </p>
+
+  <div class="product_grid">
+  <!-- looper -->
+  {% for destination in site.destinations %}
+    {% unless destination.publish=="notyet" %}
+      <a class="looper__link card {{ destination.title | slugify }}" title="{{ destination.title }}" href="{{ site.baseurl }}/{{ destination.title | slugify }}">
+
+        <div class="product_image">
+          <figure class="">
+            <img  class="product_thumb" src="{{ site.baseurl }}/assets/p/destinations/{{ destination.title | slugify }}/{{ destination.title | slugify }}.jpg" alt="{{ destination.title }}" title="{{ destination.title }}">
+
+            {% if destination.image_caption %}
+              <figcaption class="{{ destination.title | slugify }}">{{ destination.image_caption }}</figcaption>
+            {% endif %}
+          </figure>
+        </div>
+
+        <div class="product_text">
+          <h3>{{destination.title | upcase }}</h3>
+          {% if destination.subtitle %}
+            <h5>{{destination.subtitle | upcase }}</h5>
+          {% endif %}
+          <div class="product_text_content">
+            {{ destination.description }}
+          </div>
+          <div class="button_row">
+            <span class="button" href="{{ site.baseurl }}/{{ destination.title | slugify }}">View</span>
+          </div>
+        </div>
+
+      </a>
+    {% endunless %}
+  {% endfor %}
+  </div>
+</div>

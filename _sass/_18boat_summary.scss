@@ -1,0 +1,23 @@
+.boat_summary {
+  padding-top: $vertical_rhythm;
+  background-color: white;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: $vertical_rhythm/4;
+  }
+
+  hr {
+    width: 50%;
+    max-width: 200px;
+  }
+}
+
+svg.ticket,
+svg.jetski {
+  height: 50px;
+}

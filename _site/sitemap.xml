@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/king-millenium-i/</loc>
+<lastmod>2019-03-13T14:20:42+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/king-millenium-ii/</loc>
+<lastmod>2019-03-13T14:20:42+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mentawai-and-telo/</loc>
+<lastmod>2019-03-13T14:20:42+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mentawai/</loc>
+<lastmod>2019-03-13T14:20:42+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/telo-and-nias/</loc>
+<lastmod>2019-03-13T14:20:42+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/booking-calendar/</loc>
+<lastmod>2019-03-13T14:20:42+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/terms-and-conditions/</loc>
+<lastmod>2019-03-13T14:20:42+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+</urlset>
