@@ -5,7 +5,7 @@
 
     <div class="menu menu_footer">
 
-      <div class="menu_products boats" role="menu">
+      <div class="menu_products series" role="menu">
 
         <div class="title">Series</div>
 
@@ -28,7 +28,29 @@
         {% endfor %}
 
 
+        <div class="title">Details</div>
+
+        {% for page in site.pages %}
+
+          {% if page.url contains item.url %}
+            {% unless page.publish=="notyet" %}
+            <a class="menu_item active" role="menuitem" title="{{ page.title }}" href="/{{ page.title | slugify }}">
+              <span class="">{{ page.title }}</span>
+            </a>
+            {% endunless %}
+          {% else %}
+            {% unless page.publish=="notyet" %}
+            <a class="menu_item " role="menuitem" title="{{ page.title }}" href="/{{ page.title | slugify }}">
+              <span class="page_title">{{ page.title }}</span>
+            </a>
+            {% endunless %}
+          {% endif %}
+
+        {% endfor %}
+
       </div>
+
+
 
 
       <div class="menu_contacts" role="menu">
@@ -74,7 +96,7 @@
         <div class="footer_icon telephone">
           <a class="menu_item" role="menuitem" href="https://wa.me/{{site.company.telephone_whatsapp | remove:'+' | remove:' ' }}?text=I%20want%20more%20information...%20Please%20contact%20me" title="Send a WhatsApp message">
             <span>{% include svg/use.html id="icn--whatsapp" class="whatsapp" %}</span>
-            <span>{{site.company.telephone_whatsapp}}</span>
+            <span><span class="hide_on_phones">Contact {{site.title}} via&nbsp;</span>WhatsApp</span>
           </a>
         </div>
         {% endif %}
@@ -95,7 +117,7 @@
             <span>
               {% include svg/use.html id="icn--facebook" class="facebook" %}
             </span>
-            <span><span class="hide_on_phones">Follow us on&nbsp;</span>Facebook</span>
+            <span><span class="hide_on_phones">Follow {{site.title}} on&nbsp;</span>Facebook</span>
           </a>
         </div>
         {% endif %}
@@ -106,7 +128,7 @@
             <span>
               {% include svg/use.html id="icn--instagram" class="instagram" %}
             </span>
-            <span><span class="hide_on_phones">Follow us on&nbsp;</span>Instagram</span>
+            <span><span class="hide_on_phones">Follow {{site.title}} on&nbsp;</span>Instagram</span>
           </a>
         </div>
         {% endif %}
@@ -117,7 +139,7 @@
             <span>
               {% include svg/use.html id="icn--youtube" class="youtube" %}
             </span>
-            <span><span class="hide_on_phones">Subscribe to our&nbsp;</span>YouTube <span class="hide_on_phones"> channel</span></span>
+            <span><span class="hide_on_phones">Subscribe to {{site.title}}&nbsp;</span>YouTube <span class="hide_on_phones"> channel</span></span>
           </a>
         </div>
         {% endif %}
@@ -128,7 +150,7 @@
             <span>
               {% include svg/use.html id="icn--vimeo" class="vimeo" %}
             </span>
-            <span><span class="hide_on_phones">Follow us on&nbsp;</span>Vimeo</span>
+            <span><span class="hide_on_phones">Follow {{site.title}} on&nbsp;</span>Vimeo</span>
           </a>
         </div>
         {% endif %}
@@ -140,7 +162,7 @@
               {% include svg/use.html id="icn--email" class="email" %}
             </span>
             <span itemprop="email">
-              <span class="show_on_phones">bookings</span>
+              <span class="show_on_phones">Email</span>
               <span class="hide_on_phones">{{site.company.email}}</span></span>
           </a>
         </div>
@@ -158,7 +180,7 @@
 
     </div>
 
-    <div class="copyright">Copyright © {{ "now" | date: "%Y" }} {{site.company.legal_name}}. All rights reserved. <br class="show_on_phones"> Powered by <a href="https://junglestar.org">Junglestar</a></div>
+    <div class="copyright">Copyright © {{ "now" | date: "%Y" }} {% if site.company.legal_name %}{{site.company.legal_name}}{% else %}{{site.title}}{% endif %}. All rights reserved. <br class="show_on_phones"> Powered by <a href="https://junglestar.org">Junglestar</a></div>
 
   </div>
 

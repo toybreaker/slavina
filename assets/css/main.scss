@@ -3,7 +3,7 @@
 //rok&scroll
 $font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 
-$brand_color: white; 
+$brand_color: white;
 $complement_brand_color: lighten(complement($brand_color), 30);
 $invert_brand_color: lighten(invert($brand_color), 30);
 
@@ -66,6 +66,10 @@ $heading2: $heading1/8*6;
 $heading3: $heading1/8*5;
 
 // responsive headings
+$header_responsive: 10vw;
+$header_min: 32px;
+$header_max: 56px;
+
 $heading1_responsive: 4vw;
 $heading1_min: 26px;
 $heading1_max: 46px;

@@ -297,7 +297,8 @@ h1, h2, h3, h4, h5, h6 {
   .content h4,
   .content h5,
   .content h6 {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
   .boat_summary h1, .boat_summary h2, .boat_summary h3, .boat_summary h4, .boat_summary h5, .boat_summary h6 {
     margin-top: 0.5rem; }
 
@@ -451,7 +452,6 @@ h6 {
   .header .logo {
     height: 70px; }
   .header h1 {
-    line-height: 1;
     text-transform: uppercase;
     margin: 0;
     padding: 0; }
@@ -478,6 +478,17 @@ h6 {
     @media only screen and (min-width: 601px) {
       .menu_header .menu_item span {
         text-align: left; } }
+
+.site_title {
+  font-size: 10vw;
+  line-height: 2;
+  font-weight: 300; }
+  @media (max-width: 320px) {
+    .site_title {
+      font-size: 32px; } }
+  @media (min-width: 560px) {
+    .site_title {
+      font-size: 56px; } }
 
 .footer {
   display: block;

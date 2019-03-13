@@ -69,11 +69,7 @@ exclude:
 permalink: /:title/ # pretty
 
 collections:
-  boats:
-    output: true
-    permalink: /:title/
-    layout: #
-  destinations:
+  series:
     output: true
     permalink: /:title/
     layout: #

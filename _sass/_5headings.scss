@@ -9,6 +9,7 @@ h6 {
   font-weight: $font_weight--light;
   .content & {
     margin-top: $vertical_rhythm;
+    margin-bottom: $vertical_rhythm;
   }
   .boat_summary & {
     margin-top: $vertical_rhythm/4;

@@ -79,7 +79,7 @@
   }
 
   h1 {
-    line-height: 1;
+    //line-height: 1.5;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -117,4 +117,10 @@
       }
     }
   }
+}
+
+.site_title {
+  @include responsive-font($header_responsive, $header_min, $header_max);
+  line-height: 2;
+  font-weight: $font_weight--min;
 }
