@@ -9,7 +9,7 @@
   width: auto;
   position: absolute;
   left: 50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%,-50%);
   z-index: 2;
   @include media( "screen", ">bp1Width") {
     min-width: 100%;
