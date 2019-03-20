@@ -1,0 +1,14 @@
+.painting_link {
+  display: block;
+  margin-bottom: $vertical_rhythm;
+}
+
+
+.painting_data  {
+  font-weight: $font_weight--reg;
+  span {
+    font-style: italic;
+    font-size: 90%;
+    font-weight: $font_weight--min;
+  }
+}

@@ -1,0 +1,72 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+  {% include head.html %}
+
+  <body class="painting {{page.title}}">
+
+    {% include svg/defs.html %}
+
+    {% include header.html %}
+
+    <div class="bungkus group" role="main">
+
+      <div class="container">
+
+        <div class="painting_image">
+
+          {% comment %}
+          assign the page image and split at the extension dot
+          {% endcomment %}
+
+          {% assign f = page.image | split: '.' %}
+
+          <img class="" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
+               srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
+                       {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
+                       {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
+                       {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
+               sizes="100vw" alt="{{ page.name }} - {{ page.subtitle }}" />
+
+        </div>
+
+        <div class="painting_data painting_title">
+          <span>Title</span>
+          {{ page.title }}
+         </div>
+
+        <div class="painting_data painting_year">
+          <span>Year</span>
+          {{ page.year }}
+        </div>
+
+        <div class="painting_data painting_dimensions">
+          <span>Dimensions</span>
+          {{ page.dimensions }}
+        </div>
+
+        <div class="painting_data painting_medium">
+          <span>Medium</span>
+          {{ page.medium }}
+        </div>
+
+      </div>
+
+
+    </div>
+
+    {% include footer.html %}
+
+    {% include script_ext_link.html %}
+
+    {% include script_append_to_copy_action.html %}
+
+    {% include script_google_analytics.html %}
+
+
+  </body>
+
+</html>

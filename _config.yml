@@ -3,7 +3,7 @@ subtitle: ""
 description: ""
 keywords:
 lang: en
-version: 0.0.1
+version: 0.0.2
 baseurl: ""
 url: "https://yo.davinastephens.com"
 menu: long_menu # 'short_menu' or 'long_menu'
@@ -56,10 +56,10 @@ google:
 # Build settings
 markdown: kramdown
 plugins:
- - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
  - html-proofer
+
 exclude:
   - Gemfile.lock
   - node_modules
@@ -69,10 +69,21 @@ exclude:
 permalink: /:title/ # pretty
 
 collections:
-  series:
-    output: true
-    permalink: /:title/
-    layout: #
-  pages:
-    output: true
-    permalink: /:title/
+ series:
+  output: true
+  permalink: /:title/
+ pages:
+  output: true
+  permalink: /:title/
+ paintings:
+  output: true
+  permalink: /:title/
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "paintings"
+    values:
+      layout: "painting"
+  

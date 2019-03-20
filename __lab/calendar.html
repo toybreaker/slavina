@@ -1,0 +1,89 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+{% include head.html %}
+
+<body class="{{page.title}}">
+
+  {% include svg/defs.html %}
+
+  {% include header.html %}
+
+    <div class="bungkus group" role="main">
+
+      <div class="container">
+
+        <h1 class="product_page_title center uppercase">{{page.title}}</h1>
+
+        <h4 class="product_page_title center uppercase">{{page.subtitle}}</h4>
+
+        <div id="king-millenium-one">
+
+          <h1 class="bottom_padded">King Millenium I</h1>
+
+          {% include booking_boat.html %}
+
+          <div class="booking_block">
+
+            <h2 class="center">Reserve your place on <br class="maybe_break">King Millenium&nbsp;I</h2>
+
+            <div class="button_row book_now center">
+              <a class="button" href="mailto:{{site.company.email}}">BOOK NOW</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="spacer">&nbsp;</div>
+
+        <div id="king-millenium-two">
+
+          <h1 class="bottom_padded">King Millenium II</h1>
+
+          {% include booking_boat.html %}
+
+          <div class="booking_block">
+
+            <h2 class="center">Reserve your place on <br class="maybe_break">King Millenium&nbsp;II</h2>
+
+            <div class="button_row book_now center">
+              <a class="button" href="mailto:{{site.company.email}}">BOOK NOW</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container">
+      {{content}}
+    </div>
+
+    {% include footer.html %}
+
+    {% include script_ext_link.html %}
+
+    {% include script_append_to_copy_action.html %}
+
+    {% include script_vue_from_CDN.html %}
+
+
+    {% include script_vue_booking.html bookingsheet='king-millenium-two' %}
+
+    {% include script_vue_booking.html bookingsheet='king-millenium-one' %}
+
+
+    {% include script_ext_link.html %}
+
+    {% include script_append_to_copy_action.html %}
+
+  </body>
+
+</html>

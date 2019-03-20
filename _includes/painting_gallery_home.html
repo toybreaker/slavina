@@ -1,0 +1,15 @@
+<h2>testing</h2>
+<div class="gallery_container">
+
+    <div v-for="artpiece in artpieces" :key="`specialmenu-${artpiece.name}`">
+      <img :data-url="/assets/p/{% raw %}{{artpiece.imagecode}}{% endraw %}.jpg" alt="">
+      <img :src="artpiece.imagecode" alt="Image">
+    </div>
+
+
+    <!-- <div v-for="n in 100">
+        <img v-bind:src="`../assets/p/${n}.jpg`">
+    </div> -->
+
+
+</div>

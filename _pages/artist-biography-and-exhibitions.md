@@ -3,7 +3,7 @@ layout: default
 title: Artist Biography and Exhibitions
 subtitle:
 description:
-publish: # notyet or black
+publish: # notyet or blank
 image: /assets/p/home/00.jpg
 ---
 

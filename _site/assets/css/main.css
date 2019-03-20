@@ -683,7 +683,7 @@ a {
       padding-top: 5px;
       padding-bottom: 5px; }
 
-[role="main"] a:not(.card):not(.button) {
+[role="main"] a:not(.card):not(.button):not(.painting_link) {
   color: black;
   text-decoration: none;
   border-bottom: 3px solid white;
@@ -691,9 +691,9 @@ a {
   /* box shadow adds additional thickness*/
   -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
   transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1); }
-  [role="main"] a:not(.card):not(.button):focus, [role="main"] a:not(.card):not(.button):hover {
+  [role="main"] a:not(.card):not(.button):not(.painting_link):focus, [role="main"] a:not(.card):not(.button):not(.painting_link):hover {
     background: white; }
-  [role="main"] a:not(.card):not(.button) strong {
+  [role="main"] a:not(.card):not(.button):not(.painting_link) strong {
     color: inherit; }
 
 .product_page_title {
@@ -889,34 +889,6 @@ section {
   .pad.hide {
     display: none; }
 
-.retailers {
-  display: block;
-  padding: 2rem 0;
-  width: 100%;
-  background-color: #e8e8e8; }
-  .retailers .title {
-    padding-bottom: 2rem; }
-  .retailers svg {
-    width: 26px;
-    height: 26px;
-    margin-right: 10px; }
-
-.retailer_maplink {
-  padding-bottom: 1rem;
-  display: flex;
-  align-items: center; }
-
-.retailer_name,
-.retailer_location,
-.retailer_city,
-.retailer_address,
-.retailer_telephone,
-.retailer_map_icon {
-  display: inline-block; }
-
-.retailer_name {
-  font-weight: 500; }
-
 .share_box {
   margin-top: 2rem;
   width: 100%;
@@ -932,54 +904,6 @@ section {
     @media only screen and (min-width: 601px) {
       .share_box h4 {
         width: auto; } }
-
-.boat_summary {
-  padding-top: 2rem;
-  background-color: white; }
-  .boat_summary h1,
-  .boat_summary h2,
-  .boat_summary h3,
-  .boat_summary h4,
-  .boat_summary h5,
-  .boat_summary h6 {
-    margin-top: 0.5rem; }
-  .boat_summary hr {
-    width: 50%;
-    max-width: 200px; }
-
-svg.ticket,
-svg.jetski {
-  height: 50px; }
-
-.boats_block {
-  padding-top: 2rem;
-  background-color: rgba(179, 223, 255, 0.75); }
-
-.booking_block {
-  margin-top: 2rem;
-  padding: 2rem 2rem 1rem 2rem;
-  border: dashed 4px #0597ff; }
-  @media only screen and (min-width: 841px) {
-    .booking_block {
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto; } }
-  .booking_block .maybe_break {
-    display: none; }
-    @media only screen and (min-width: 841px) {
-      .booking_block .maybe_break {
-        display: block; } }
-
-.crew_block {
-  padding-top: 2rem;
-  background-color: rgba(224, 242, 255, 0.75); }
-
-.small_picture {
-  margin-bottom: 1rem; }
-
-.destinations_block {
-  padding-top: 2rem;
-  background-color: rgba(128, 202, 255, 0.75); }
 
 .responsive_table_block {
   width: 100%;
@@ -1016,3 +940,14 @@ svg.jetski {
       @media only screen and (min-width: 601px) {
         .responsive_table_block td:before {
           display: none; } }
+
+.painting_link {
+  display: block;
+  margin-bottom: 2rem; }
+
+.painting_data {
+  font-weight: 500; }
+  .painting_data span {
+    font-style: italic;
+    font-size: 90%;
+    font-weight: 300; }

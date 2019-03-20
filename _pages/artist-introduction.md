@@ -3,7 +3,7 @@ layout: default
 title: Artist Introduction
 subtitle:
 description:
-publish: # notyet or black
+publish: # notyet or blank
 image: /assets/p/home/00.jpg
 ---
 ## Introduction
