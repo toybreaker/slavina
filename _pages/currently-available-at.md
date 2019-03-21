@@ -4,7 +4,8 @@ title: Currently available At
 subtitle:
 description:
 publish: # notyet or blank
-image: /assets/p/home/00.jpg
+image: /assets/p/paintings/davina-stephens-2019001.jpg
+image_align_bottom: #true or empty
 ---
 
 ### Davinas' paintings, fine-art prints and gift-cards are currently available at the following selected locations.

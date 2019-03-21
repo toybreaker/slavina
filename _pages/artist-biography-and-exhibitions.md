@@ -4,7 +4,8 @@ title: Artist Biography and Exhibitions
 subtitle:
 description:
 publish: # notyet or blank
-image: /assets/p/home/00.jpg
+image:  /assets/p/profile/davina-stephens-profile.jpg
+image_align_bottom: true #true or empty
 ---
 
 Born 24th August 1968  

@@ -4,7 +4,8 @@ title:  Davina bekerja antropolog
 subtitle:
 description:
 publish: # notyet or black
-image: /assets/p/home/00.jpg
+image: /assets/p/paintings/davina-stephens-2019001.jpg
+image_align_bottom: #true or empty
 ---
 
 ## Menyadari Tatanan Baru Dari Permainan Struktur
