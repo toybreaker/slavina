@@ -1,7 +1,7 @@
 ---
 layout: series
 title: Woodblocks
-subtitle: The botanist series visually celebrating the regional flora and natural history.
+subtitle: Ancient technique, modern usage and iconographic storytelling.
 description:
 publish: # notyet or blank
 image: /assets/p/paintings/davina-stephens-2019009.jpg

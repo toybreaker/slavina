@@ -618,7 +618,7 @@ h6 {
   #icn--junglestar .svg_color {
     fill: black; }
 
-a:hover .svg_color {
+a:hover svg.svg_color {
   fill: black !important; }
 
 .is_spa svg.up {
