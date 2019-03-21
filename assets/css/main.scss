@@ -10,13 +10,19 @@ $invert_brand_color: lighten(invert($brand_color), 30);
 $black: hsl(0,0,0);
 $link_color: hsl(0,0,0);
 $bg_color: hsl(0, 0%, 100%);
-$grey: hsl(0,0,80%);
-$grey--light: hsl(0,0,90%);
 $underline_link_color : $brand_color;
-
 $product_category_1: hsla(205, 100%, 75%, .75);
 $product_category_2: hsla(205, 100%, 85%, .75);
 $product_category_3: hsla(205, 100%, 94%, .75);
+
+
+$grey: hsl(0,0,80%);
+$grey--light: hsl(0,0,90%);
+$grey--dark: hsl(0,0,65%);
+$grey--darker: hsl(0,0,50%);
+$grey--darkest: hsl(0,0,35%);
+$grey--black: hsl(0,0,20%);
+
 
 $vertical_rhythm: 2rem;
 $vertical_rhythm--small: 1rem;

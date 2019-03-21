@@ -1,8 +1,12 @@
 .svg_color {
-  fill: $link_color;
+  fill: $grey--darker;
   #icn--junglestar & {
     fill: black;
   }
+}
+
+a:hover .svg_color {
+  fill: $link_color!important;
 }
 
 .is_spa svg.up {

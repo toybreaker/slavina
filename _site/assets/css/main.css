@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 4vw;
   line-height: 1.2;
-  font-weight: 500; }
+  color: #a6a6a6; }
   @media (max-width: 650px) {
     h1 {
       font-size: 26px; } }
@@ -315,7 +315,8 @@ h1 {
 
 h2 {
   font-size: 3.5vw;
-  line-height: 1.2; }
+  line-height: 1.2;
+  color: #a6a6a6; }
   @media (max-width: 685.7142857143px) {
     h2 {
       font-size: 24px; } }
@@ -325,7 +326,8 @@ h2 {
 
 h3 {
   font-size: 3vw;
-  line-height: 1.2; }
+  line-height: 1.2;
+  color: gray; }
   @media (max-width: 733.3333333333px) {
     h3 {
       font-size: 22px; } }
@@ -335,7 +337,8 @@ h3 {
 
 h4 {
   font-size: 2.5vw;
-  line-height: 1.1; }
+  line-height: 1.1;
+  color: gray; }
   @media (max-width: 800px) {
     h4 {
       font-size: 20px; } }
@@ -491,6 +494,7 @@ h6 {
       font-size: 56px; } }
 
 .footer {
+  color: #595959;
   display: block;
   padding: 2rem 0;
   width: 100%;
@@ -529,7 +533,7 @@ h6 {
     padding-top: 2rem;
     padding-bottom: 0.3333333333rem;
     margin-bottom: 0.3333333333rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #a6a6a6;
     width: 100%; }
     @media only screen and (min-width: 601px) {
       .footer .title {
@@ -571,7 +575,7 @@ h6 {
     display: -ms-flexbox;
     display: flex; }
     .menu_footer .menu_item.active {
-      border: black solid 1px;
+      border: #a6a6a6 solid 1px;
       padding-left: 1rem;
       padding-right: 1rem; }
   .menu_footer .email a span,
@@ -610,9 +614,12 @@ h6 {
   margin-top: 2rem; }
 
 .svg_color {
-  fill: black; }
+  fill: gray; }
   #icn--junglestar .svg_color {
     fill: black; }
+
+a:hover .svg_color {
+  fill: black !important; }
 
 .is_spa svg.up {
   padding: 5px 15px;
@@ -670,15 +677,17 @@ a {
   text-decoration: none;
   color: black;
   border-bottom: 1px solid transparent; }
+  .footer a {
+    color: #595959; }
   a:hover, a:focus {
-    color: #4d4d4d; }
+    color: #0d0d0d; }
   a.active {
-    border-bottom: black solid 1px; }
+    border-bottom: #a6a6a6 solid 1px; }
     .header a.active {
       border-bottom: 0 none; }
       @media only screen and (min-width: 601px) {
         .header a.active {
-          border-bottom: black solid 1px; } }
+          border-bottom: #a6a6a6 solid 1px; } }
     a.active span {
       padding-top: 5px;
       padding-bottom: 5px; }

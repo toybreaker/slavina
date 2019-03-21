@@ -1,4 +1,5 @@
 .footer {
+  color: $grey--darkest;
   display: block;
   padding: $vertical_rhythm 0;
   width: 100%;
@@ -43,7 +44,7 @@
     padding-top: $vertical_rhythm;
     padding-bottom: $vertical_rhythm/6;
     margin-bottom: $vertical_rhythm/6;
-    border-bottom: 1px solid $black;
+    border-bottom: 1px solid $grey--dark;
     width: 100%;
     @include media( "screen", ">minWidth") {
       border-bottom: 0 none;
@@ -92,7 +93,7 @@
     display: -ms-flexbox;
     display: flex;
     &.active {
-      border: black solid 1px;
+      border: $grey--dark solid 1px;
       padding-left: $vertical_rhythm--small;
       padding-right: $vertical_rhythm--small;
     }
