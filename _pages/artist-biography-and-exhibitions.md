@@ -4,7 +4,7 @@ title: Artist Biography and Exhibitions
 subtitle:
 description:
 publish: # notyet or blank
-image:  /assets/p/profile/davina-stephens-profile.jpg
+image: /assets/p/others/davina-stephens-profile.jpg
 image_align_bottom: true #true or empty
 ---
 

@@ -4,7 +4,7 @@ title: Artist Introduction
 subtitle:
 description:
 publish: # notyet or blank
-image:  /assets/p/profile/davina-stephens-profile.jpg
+image:  /assets/p/others/davina-stephens-tecnique.jpg
 image_align_bottom: true #true or empty
 ---
 ## Introduction
