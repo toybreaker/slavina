@@ -1,8 +1,8 @@
 ---
 layout: series
-title: Landscape Dominated
+title: Woodblocks
 subtitle: The botanist series visually celebrating the regional flora and natural history.
 description:
 publish: # notyet or blank
-image:  /assets/p/paintings/davina-stephens-2019009.jpg
+image: /assets/p/paintings/davina-stephens-2019009.jpg
 ---

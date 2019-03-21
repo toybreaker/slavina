@@ -2,6 +2,6 @@
 layout: home
 title: Davina Stephens
 description: #
-image: /assets/p/home/00.jpg
+image: /assets/p/paintings/davina-stephens-2019006.jpg
 caption:
 ---

@@ -9,9 +9,9 @@ $invert_brand_color: lighten(invert($brand_color), 30);
 
 $black: hsl(0,0,0);
 $link_color: hsl(0,0,0);
-$bg_color: hsl(0, 0%, 96%);
-$grey: hsl(0,0,45);
-$grey--light: hsl(0,0,85);
+$bg_color: hsl(0, 0%, 100%);
+$grey: hsl(0,0,80%);
+$grey--light: hsl(0,0,90%);
 $underline_link_color : $brand_color;
 
 $product_category_1: hsla(205, 100%, 75%, .75);
