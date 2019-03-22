@@ -12,7 +12,7 @@ image_align_bottom: true #true or empty
 
 
 2017, June  
-'Jungle Fever' photos by Stefano Scata, Marie Claire Maison, featuring site specific paintings from the series Living Archipelago for a private residence, country Home in Bali, Indonesia.
+'Jungle Fever' photos by Stefano Scata, MARIE CLAIRE MAISON, featuring site specific paintings from the series **Living Archipelago** for a private residence, country Home in Bali, Indonesia.
 
 2007, October 20   
 'Open Gallery', SYDNEY MORNING HERALD, Australia
@@ -48,7 +48,7 @@ image_align_bottom: true #true or empty
 ‘Arty Party’ by Ethel Da Costa, THE HERALD, Goa, India
 
 2002, February   
-‘Davina: A life full of Fairy Tales’, TIMES OF INDIA DELHI TIMES by Sanghit Singh, India
+‘Davina: A life full of Fairy Tales’, TIMES OF INDIA, DELHI TIMES by Sanghit Singh, India
 
 2002, March   
 ‘Beachside Stories (feature), FIRST CITY Magazine, India
