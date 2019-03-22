@@ -966,8 +966,8 @@ section {
     font-size: 90%;
     font-weight: 300; }
 
-.currently-available-at .content .open_in_new_window :hover {
-  color: black; }
+.currently-available-at .content .open_in_new_window:hover {
+  color: #0597ff !important; }
 .currently-available-at .content .open_in_new_window:before {
   content: '';
   width: 30px;
