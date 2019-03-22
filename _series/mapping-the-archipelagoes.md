@@ -1,6 +1,6 @@
 ---
 layout: series
-title: Mapping the Archipelagoes
+title: Mapping The Archipelagoes
 subtitle: Chanting the traveling, the sailing, the islands hopping.
 description:
 publish: # notyet or blank

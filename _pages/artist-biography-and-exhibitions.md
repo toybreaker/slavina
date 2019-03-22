@@ -2,7 +2,7 @@
 layout: default
 title: Artist Biography and Exhibitions
 subtitle:
-description:
+description: "Selected Solo Exhibitions, Selected Group Shows. "
 publish: # notyet or blank
 image: /assets/p/others/davina-stephens-profile.jpg
 image_align_bottom: true #true or empty

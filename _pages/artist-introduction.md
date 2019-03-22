@@ -2,7 +2,7 @@
 layout: default
 title: Artist Introduction
 subtitle:
-description:
+description: "Her celebration of the freedom of living, thru story telling, the tropical travels scenes and her use of color convey, through different materials, media and techniques, a unique recognizable character which took her artworks to international recognition. Pop art, neo-figuration, or naïve art fall short of defining her style. Her works take on a contemporary character in her use of print and paint, maps and stamps, and in the compositional play of space and texture."
 publish: # notyet or blank
 image:  /assets/p/others/davina-stephens-tecnique.jpg
 image_align_bottom: true #true or empty
