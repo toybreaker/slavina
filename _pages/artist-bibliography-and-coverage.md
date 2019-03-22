@@ -10,6 +10,10 @@ image_align_bottom: true #true or empty
 
 ### Printed Press
 
+
+2017, June  
+'Jungle Fever' photos by Stefano Scata, Marie Claire Maison, featuring site specific paintings from the series Living Archipelago for a private residence, country Home in Bali, Indonesia.
+
 2007, October 20   
 'Open Gallery', SYDNEY MORNING HERALD, Australia
 
