@@ -22,18 +22,18 @@
 
         <div class="painting_group_list">
 
-          {% for painting in site.paintings reversed %}
-            {% if painting.show_in_home %}
-              {% unless painting.publish %}
+          {% for post in site.posts %}
+            {% if post.show_in_home %}
+              {% unless post.publish %}
               <div class="painting_link_box">
 
-                <a class="painting_link" href="{{ painting.url }}">
+                <a class="painting_link" href="{{ post.url }}">
 
                   {% comment %}
                   assign the page image and split at the extension dot
                   {% endcomment %}
 
-                  {% assign f = painting.image | split: '.' %}
+                  {% assign f = post.image | split: '.' %}
 
                   <img class="" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
                        srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
@@ -42,7 +42,7 @@
                                {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
                        sizes="100vw" alt="{{ page.name }} - {{ page.subtitle }}" />
 
-                  <span class="painting_title"><strong>{{ painting.title }}</strong>, {{ painting.dimensions }} cm</span>
+                  <span class="painting_title"><strong>{{ post.title }}</strong>, {{ post.dimensions }} cm</span>
 
                 </a>
 

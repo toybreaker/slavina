@@ -4,7 +4,7 @@ subtitle: ""
 description: ""
 keywords:
 lang: en
-version: 0.0.3
+version: 0.0.4
 baseurl: ""
 url: "https://davina.junglestar.org"
 menu: long_menu # 'short_menu' or 'long_menu'
@@ -76,14 +76,9 @@ collections:
  pages:
   output: true
   permalink: /:title/
- paintings:
-  output: true
-  permalink: /:title/
-
 
 defaults:
   - scope:
-      path: ""
-      type: "paintings"
+      type: posts
     values:
       layout: "painting"
