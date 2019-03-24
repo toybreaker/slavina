@@ -59,3 +59,11 @@ h6 {
 .bottom_padded {
   padding-bottom: $vertical_rhythm;
 }
+
+.top_padded--thin {
+  padding-top: $vertical_rhythm--small;
+}
+
+.bottom_padded--thin {
+  padding-bottom: $vertical_rhythm--small;
+}

@@ -57,6 +57,7 @@ google:
 # Build settings
 markdown: kramdown
 plugins:
+ - jekyll/tagging
  - jekyll-seo-tag
  - jekyll-sitemap
  - html-proofer
@@ -82,3 +83,8 @@ defaults:
       type: posts
     values:
       layout: "painting"
+
+tag_page_layout: post_index_tag
+tag_page_dir: ./
+tag_permalink_style: pretty
+ignored_tags: 

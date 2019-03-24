@@ -5,10 +5,44 @@
 
 
 .painting_data  {
-  font-weight: $font_weight--reg;
-  span {
+
+  .painting_data--content {
+    font-weight: $font_weight--reg;
+  }
+
+  .painting_data--name {
     font-style: italic;
     font-size: 90%;
     font-weight: $font_weight--min;
   }
+
+
+
 }
+
+.painting_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 1rem;
+
+  > div {
+    padding: .5rem;
+    border-radius: $border_radius;
+    border: 1px $grey solid;
+  }
+
+  .painting_link {
+    margin-bottom: 0;
+  }
+}
+.painting_title,
+.painting_dimensions {
+  font-size: 14px;
+  line-height: 1.1;
+  padding-top: $vertical_rhythm--small/2;
+  padding-bottom:0;
+}
+
+// .painting_block {}
+//
+// .painting_thumb {}
