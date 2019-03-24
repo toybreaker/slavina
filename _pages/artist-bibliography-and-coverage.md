@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hero
 title: Artist Bibliography and coverage
 subtitle:
 description:
@@ -8,8 +8,9 @@ image: /assets/p/others/davina-stephens-profile.jpg
 image_align_bottom: true #true or empty
 ---
 
-### Printed Press
+>"...what Davina sees with her open spontaneous eyes is a transient, multicultural world in which people communicate with each other mainly by exchanging 'things' or going places rather than by exchanging ideas. A significant artist with a significant message" _Jean Coteau, art critic_
 
+### Printed Press
 
 2017, June  
 '_Jungle Fever'_ photos by Stefano Scata, MARIE CLAIRE MAISON, featuring site specific paintings from the series **Living Archipelago** for a private residence, country Home in Bali, Indonesia.

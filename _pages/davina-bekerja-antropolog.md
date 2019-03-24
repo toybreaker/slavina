@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hero
 title:  Davina bekerja antropolog
 subtitle:
 description: "Davina Stephens yang banyak bekerja antar lintas budaya lewat berbagai negara yang pernah dikunjungi maupun menetap untuk sekian lama, cukup untuk memunculkan berbagai prasangka mengenai metode kerja yang dilakukannya."

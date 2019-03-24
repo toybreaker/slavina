@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hero
 title: Artist Biography and Exhibitions
 subtitle:
 description: "Selected Solo Exhibitions, Selected Group Shows. "

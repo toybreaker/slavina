@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hero
 title: Currently available At
 subtitle:
 description: "Davina paintings, fine-art prints and gift-cards are currently available at these selected locations."
