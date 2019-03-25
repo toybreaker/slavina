@@ -26,54 +26,67 @@
 
           </div>
 
-          {% capture this_series %}{{page.title | slugify }}{% endcapture %}
+          <div class="painting_grid bigger">
 
-          {% if this_series contains 'landscape-dominated' %}
-            {% for item in site.data.landscape-dominated reversed %}
-              {% include series_image_block.html %}
-            {% endfor %}
-          {% endif %}
+            {% capture this_series %}{{page.title | slugify }}{% endcapture %}
 
-          {% if this_series contains 'living-houses' %}
-            {% for item in site.data.living-houses reversed %}
-              {% include series_image_block.html %}
-            {% endfor %}
-          {% endif %}
+            {% if this_series contains 'landscape-dominated' %}
+              {% for item in site.data.landscape-dominated reversed %}
+                {% include series_image_block.html %}
+              {% endfor %}
+            {% endif %}
 
-          {% if this_series contains 'mapping-the-archipelagoes' %}
-            {% for item in site.data.mapping-the-archipelagoes reversed %}
-              {% include series_image_block.html %}
-            {% endfor %}
-          {% endif %}
+            {% if this_series contains 'living-houses' %}
+              {% for item in site.data.living-houses reversed %}
+                {% include series_image_block.html %}
+              {% endfor %}
+            {% endif %}
 
-          {% if this_series contains 'oceans' %}
-            {% for item in site.data.oceans reversed %}
-              {% include series_image_block.html %}
-            {% endfor %}
-          {% endif %}
+            {% if this_series contains 'mapping-the-archipelagoes' %}
+              {% for item in site.data.mapping-the-archipelagoes reversed %}
+                {% include series_image_block.html %}
+              {% endfor %}
+            {% endif %}
 
-          {% if this_series contains 'pacific-family-argonauts' %}
-            {% for item in site.data.pacific-family-argonauts reversed %}
-              {% include series_image_block.html %}
-            {% endfor %}
-          {% endif %}
+            {% if this_series contains 'oceans' %}
+              {% for item in site.data.oceans reversed %}
+                {% include series_image_block.html %}
+              {% endfor %}
+            {% endif %}
 
-          {% if this_series contains 'this-side-of-paradise'%}
-            {% for item in site.data.this-side-of-paradise reversed %}
-              {% include series_image_block.html %}
-            {% endfor %}
-          {% endif %}
+            {% if this_series contains 'pacific-family-argonauts' %}
+              {% for item in site.data.pacific-family-argonauts reversed %}
+                {% include series_image_block.html %}
+              {% endfor %}
+            {% endif %}
 
-          {% if this_series contains 'woodblocks' %}
-            {% for item in site.data.woodblocks reversed %}
-              {% include series_image_block.html %}
-            {% endfor %}
-          {% endif %}
+            {% if this_series contains 'this-side-of-paradise'%}
+              {% for item in site.data.this-side-of-paradise reversed %}
+                {% include series_image_block.html %}
+              {% endfor %}
+            {% endif %}
+
+            {% if this_series contains 'woodblocks' %}
+              {% for item in site.data.woodblocks reversed %}
+                {% include series_image_block.html %}
+              {% endfor %}
+            {% endif %}
+
+            {% if this_series contains 'plant-life' %}
+              {% for item in site.data.plant-life reversed %}
+                {% include series_image_block.html %}
+              {% endfor %}
+            {% endif %}
+
+          </div>
+
         </div>
 
       </div>
 
     </div>
+
+    {% include tag_cloud.html %}
 
     {% include footer.html %}
 

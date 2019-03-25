@@ -5,6 +5,7 @@ layout: default
 
 <div class="painting_grid">
   {% for post in page.posts %}
+    {% unless post.publish %}
     <div class="painting_block">
       <a class="painting_link" href="{{ post.url }}" title="view: {{ post.title }}" >
 
@@ -25,5 +26,6 @@ layout: default
         <p class="painting_dimensions">{{ post.dimensions }} cm</p>
       </a>
     </div>
+    {% endunless %}
   {% endfor %}
 </div>

@@ -24,6 +24,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 1rem;
+  &.bigger {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 
   > div {
     padding: .5rem;

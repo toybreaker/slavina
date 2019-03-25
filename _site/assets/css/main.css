@@ -983,6 +983,8 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 1rem; }
+  .painting_grid.bigger {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
   .painting_grid > div {
     padding: .5rem;
     border-radius: 4px;
