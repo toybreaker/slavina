@@ -1,6 +1,6 @@
 ---
 layout: series
-title: Oceans
+title: Ocean Currents
 subtitle: Visually immense, functionally paramount, oceans are where we all come from.
 description:
 publish: # notyet or blank
