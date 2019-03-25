@@ -437,6 +437,8 @@ h6 {
       flex-direction: row;
       padding-top: 1rem;
       padding-bottom: 1rem; } }
+  .tag_page .header, .serie .header {
+    border-bottom: solid 1px #cccccc; }
   .short_menu .header {
     -webkit-box-align: center;
     -ms-flex-align: center;

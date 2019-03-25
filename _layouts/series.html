@@ -6,7 +6,7 @@
 
   {% include head.html %}
 
-  <body class="{{page.title}}">
+  <body class="{{page.title}} serie">
 
     {% include svg/defs.html %}
 
@@ -20,63 +20,29 @@
 
           <div class="content_header">
 
-            <h2>{{ page.title }}</h2>
+            <h2 class="center">{{ page.title }}</h2>
 
-            <h4>{{ page.subtitle }}</h4>
+            <h4 class="center">{{ page.subtitle }}</h4>
 
           </div>
 
           <div class="painting_grid bigger">
 
-            {% capture this_series %}{{page.title | slugify }}{% endcapture %}
+            {% capture this_serie %}{{page.title}}{% endcapture %}
 
-            {% if this_series contains 'landscape-dominated' %}
-              {% for item in site.data.landscape-dominated reversed %}
-                {% include series_image_block.html %}
-              {% endfor %}
-            {% endif %}
+            {% for painting in site.posts reversed %}
+              {% if painting.serie == this_serie %}
 
-            {% if this_series contains 'living-houses' %}
-              {% for item in site.data.living-houses reversed %}
-                {% include series_image_block.html %}
-              {% endfor %}
-            {% endif %}
+              <div class="painting_block">
+                <a class="painting_link" href="{{ painting.url }}" title="view: {{ painting.title }}" >
 
-            {% if this_series contains 'mapping-the-archipelagoes' %}
-              {% for item in site.data.mapping-the-archipelagoes reversed %}
-                {% include series_image_block.html %}
-              {% endfor %}
-            {% endif %}
+                  <img src="/assets/p/paintings/davina-stephens-{{painting.permalink}}-880.jpg" alt="">
+                  <p>{{painting.title}}, {{painting.dimensions}}cm</p>
 
-            {% if this_series contains 'oceans' %}
-              {% for item in site.data.oceans reversed %}
-                {% include series_image_block.html %}
-              {% endfor %}
-            {% endif %}
-
-            {% if this_series contains 'pacific-family-argonauts' %}
-              {% for item in site.data.pacific-family-argonauts reversed %}
-                {% include series_image_block.html %}
-              {% endfor %}
-            {% endif %}
-
-            {% if this_series contains 'this-side-of-paradise'%}
-              {% for item in site.data.this-side-of-paradise reversed %}
-                {% include series_image_block.html %}
-              {% endfor %}
-            {% endif %}
-
-            {% if this_series contains 'woodblocks' %}
-              {% for item in site.data.woodblocks reversed %}
-                {% include series_image_block.html %}
-              {% endfor %}
-            {% endif %}
-
-            {% if this_series contains 'plant-life' %}
-              {% for item in site.data.plant-life reversed %}
-                {% include series_image_block.html %}
-              {% endfor %}
-            {% endif %}
+                </a>
+              </div>
+              {% endif %}
+            {% endfor %}
 
           </div>
 

@@ -31,6 +31,11 @@
     padding-top: $vertical_rhythm/2;
     padding-bottom: $vertical_rhythm/2;
   }
+
+  .tag_page &,
+  .serie & {
+    border-bottom: solid 1px $grey;
+  }
   //when site has a short menu
   .short_menu & {
     -webkit-box-align: center;
