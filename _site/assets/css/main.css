@@ -974,13 +974,6 @@ section {
   display: block;
   margin-bottom: 2rem; }
 
-.painting_data .painting_data--content {
-  font-weight: 500; }
-.painting_data .painting_data--name {
-  font-style: italic;
-  font-size: 90%;
-  font-weight: 300; }
-
 .painting_grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -994,12 +987,31 @@ section {
   .painting_grid .painting_link {
     margin-bottom: 0; }
 
-.painting_title,
-.painting_dimensions {
-  font-size: 14px;
-  line-height: 1.1;
+.painting_data {
   padding-top: 0.5rem;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  line-height: 1; }
+  .painting_data .painting_data--content {
+    font-weight: 400;
+    font-size: 16px; }
+  .painting_data .painting_data--name {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 300; }
+
+.tag_page .painting_data--content,
+.serie .painting_data--content {
+  font-size: 14px; }
+.tag_page .painting_dimensions,
+.serie .painting_dimensions {
+  font-size: 13px;
+  padding-top: 0.25rem; }
+  .tag_page .painting_dimensions .painting_data--content,
+  .serie .painting_dimensions .painting_data--content {
+    font-weight: 300 !important; }
+
+.painting_serie a {
+  font-weight: 400 !important; }
 
 .currently-available-at .content .open_in_new_window:hover {
   color: #0597ff !important; }

@@ -3,23 +3,6 @@
   margin-bottom: $vertical_rhythm;
 }
 
-
-.painting_data  {
-
-  .painting_data--content {
-    font-weight: $font_weight--reg;
-  }
-
-  .painting_data--name {
-    font-style: italic;
-    font-size: 90%;
-    font-weight: $font_weight--min;
-  }
-
-
-
-}
-
 .painting_grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -38,14 +21,40 @@
     margin-bottom: 0;
   }
 }
-.painting_title,
-.painting_dimensions {
-  font-size: 14px;
-  line-height: 1.1;
+
+.painting_data  {
   padding-top: $vertical_rhythm--small/2;
   padding-bottom:0;
+  line-height: 1;
+
+  .painting_data--content {
+    font-weight: $font_weight--light;
+    font-size: 16px;
+  }
+
+  .painting_data--name {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: $font_weight--min;
+  }
+
 }
 
-// .painting_block {}
-//
-// .painting_thumb {}
+.tag_page,
+.serie {
+  .painting_data--content {
+    font-size: 14px;
+  }
+  .painting_dimensions {
+    font-size: 13px;
+    padding-top: $vertical_rhythm--small/4;
+    .painting_data--content {
+      font-weight: $font_weight--min!important;
+    }
+  }
+}
+
+
+.painting_serie a {
+  font-weight: $font_weight--light!important;
+}

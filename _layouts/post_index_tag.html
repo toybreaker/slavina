@@ -22,8 +22,14 @@ layout: default
                      {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
              sizes="50vw" alt="{{ post.title }}, {{ post.medium }}">
 
-        <p class="painting_title">{{ post.title }}</p>
-        <p class="painting_dimensions">{{ post.dimensions }} cm</p>
+        <div class="painting_data painting_title">
+          <span class="painting_data--content">{{ post.title }}</span>
+         </div>
+
+        <div class="painting_data painting_dimensions">
+          <span class="painting_data--content">{{ post.dimensions }} cm</span>
+        </div>
+
       </a>
     </div>
     {% endunless %}
