@@ -4,8 +4,8 @@ title:  Artist Statement
 subtitle:
 description: "Somebody has described me as a testimony of the fast changing world that Indonesia is, visually recording its manifold changes. A quieter palette can still make a lot of noise, rendering something with gentleness is visual politeness that can last, be better appreciated and respected."
 publish: # notyet or blank
-image:  /assets/p/others/davina-stephens-profile.jpg
-image_align_bottom: true #true or empty
+image:  /assets/p/others/davina-stephens-technique-woodblock.jpg
+image_align_bottom: #true or empty
 ---
 ## Artist Statement
 

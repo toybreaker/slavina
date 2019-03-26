@@ -13,6 +13,9 @@ image_align_bottom: true #true or empty
 ### Printed Press
 
 2017, June  
+'_Into the Wild'_ photos by Stefano Scata, DESIGN ANTHOLOGY, featuring the large painting 'Seba Ayu' for a private residence, country Home in Bali, Indonesia.
+
+2017, June  
 '_Jungle Fever'_ photos by Stefano Scata, MARIE CLAIRE MAISON, featuring site specific paintings from the series **Living Archipelago** for a private residence, country Home in Bali, Indonesia.
 
 2007, October 20   
