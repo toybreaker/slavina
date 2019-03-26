@@ -334,7 +334,7 @@ h2 {
 h3 {
   font-size: 3vw;
   line-height: 1.2;
-  color: gray; }
+  color: #a6a6a6; }
   @media (max-width: 733.3333333333px) {
     h3 {
       font-size: 22px; } }
@@ -345,7 +345,7 @@ h3 {
 h4 {
   font-size: 2.5vw;
   line-height: 1.1;
-  color: gray; }
+  color: #a6a6a6; }
   @media (max-width: 800px) {
     h4 {
       font-size: 20px; } }

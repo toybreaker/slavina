@@ -30,7 +30,7 @@
 
             {% capture this_serie %}{{page.title}}{% endcapture %}
 
-            {% for painting in site.posts reversed %}
+            {% for painting in site.posts %}
               {% if painting.serie == this_serie %}
 
               <div class="painting_block">
