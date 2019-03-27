@@ -2,9 +2,9 @@
 layout: hero
 title: Artist Biography and Exhibitions
 subtitle:
-description: "Selected Solo Exhibitions, Selected Group Shows. "
+description: "Selected Solo Exhibitions, Selected Group Shows."
 publish: # notyet or blank
-image: /assets/p/others/davina-stephens-profile.jpg
+image: /assets/p/others/davina-stephens-bio.jpg
 image_align_bottom: true #true or empty
 ---
 

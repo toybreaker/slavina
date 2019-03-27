@@ -1,10 +1,10 @@
 title: Davina Stephens
 short_title: Davina
 subtitle: ""
-description: ""
-keywords:
+description: "Davina Stephens’ art is permeated by locally significant elements and atmospheres while evocating a global sensibility. Her celebration of the freedom of living, thru story telling, the tropical travels scenes and her use of colour, convey, through different materials, media and techniques, a unique recognisable character which took her artworks to international recognition."
+keywords: acrylic, woodblocks, canvas, archipelago, painter, painting, New Zealander, New Zealand artist
 lang: en
-version: 0.1.0
+version: 0.1.1
 baseurl: ""
 url: "https://davinastephens.com"
 qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
@@ -50,7 +50,7 @@ facebook:
 logo: /assets/favicons/apple-touch-icon-152x152.png
 
 google:
-  analytics:
+  analytics: UA-137047155-1
   verification: google32e66f1a5601ec40
 
 # Build settings

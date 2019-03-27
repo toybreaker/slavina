@@ -4,7 +4,7 @@ title:  Davina bekerja antropolog
 subtitle:
 description: "Davina Stephens yang banyak bekerja antar lintas budaya lewat berbagai negara yang pernah dikunjungi maupun menetap untuk sekian lama, cukup untuk memunculkan berbagai prasangka mengenai metode kerja yang dilakukannya."
 publish: # notyet or black
-image: /assets/p/paintings/davina-stephens-2019002.jpg
+image: /assets/p/paintings/davina-stephens-2014005.jpg
 image_align_bottom: #true or empty
 ---
 

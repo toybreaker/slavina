@@ -16,7 +16,7 @@ Davina Stephens’ art is permeated by locally significant elements and atmosphe
 
 Through a nomadic life Davina has emerged from lands and seas surrounded by mysticism. With one foot in the West and the other in the East she absorbs and makes her own, typical Balinese ‘non-perspective’ or ‘repetitive’ painting styles.
 
-Her celebration of the freedom of living, thru story telling, the tropical travels scenes and her use of colour convey, through different materials, media and techniques, a unique recognisable character which took her artworks to international recognition.
+Her celebration of the freedom of living, thru story telling, the tropical travels scenes and her use of colour, convey, through different materials, media and techniques, a unique recognisable character which took her artworks to international recognition.
 
 Pop art, neo-figuration, or naïve art fall short of defining her style. Her works take on a contemporary character in her use of print and paint, maps and stamps, and in the compositional play of space and texture.
 
