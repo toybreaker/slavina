@@ -4,10 +4,9 @@ subtitle: ""
 description: ""
 keywords:
 lang: en
-version: 0.0.4
+version: 0.1.0
 baseurl: ""
-url: "https://davina.junglestar.org"
-menu: long_menu # 'short_menu' or 'long_menu'
+url: "https://davinastephens.com"
 qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
 
 company:
@@ -87,4 +86,4 @@ defaults:
 tag_page_layout: post_index_tag
 tag_page_dir: ./
 tag_permalink_style: pretty
-ignored_tags: 
+ignored_tags:
