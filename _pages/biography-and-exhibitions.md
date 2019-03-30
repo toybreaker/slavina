@@ -83,3 +83,9 @@ Lives between Australia, New Zealand, Indonesia and the Pacific.
 1995 Gallery 1A - Sydney, Australia
 
 1994 Galerie Du Rayon Vert - Wimereux, France
+
+
+
+### Curriculum vitae
+
+[Download Davina's CV](https://davinastephens.com/assets/pdf/Davina-Stephens-cv.pdf)

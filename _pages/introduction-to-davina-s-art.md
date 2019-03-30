@@ -25,3 +25,9 @@ Here we see Davina’s affinity with India, and her confidence in playing with t
 Her work method proceeds by building up her paintings by layers, weaving them together in an organic tension towards profundity and multidimensionality.
 
 ‘Batik cap’, rice paper, wood block prints and pastel colours accompanied a very unique use of whites and outlines, all blend seamlessly, yet staying recognisable.
+
+
+
+### Curriculum vitae
+
+[Download Davina CV](https://davinastephens.com/assets/pdf/Davina-Stephens-cv.pdf)

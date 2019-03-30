@@ -63,9 +63,6 @@ image_align_bottom: true #true or empty
 2002, February   
 ‘_Don’t Analyse This_’ by A. Vishal, INDIAN EXPRESS, India
 
-2000, December   
-‘_Nuansa Ceria: Studio Davina Stephens_’ by L. Rachmania, LARAS (DÉCOR MAGAZINE), Indonesia
-
 2001, May   
 ‘_Davina Stephens New Zealander_’, L’OFFICIEL MAGAZINE, Mumbai India
 
@@ -74,6 +71,9 @@ image_align_bottom: true #true or empty
 
 2001, January   
 ‘_Artist of The week_’, THE HERALD, India
+
+2000, December   
+‘_Nuansa Ceria: Studio Davina Stephens_’ by L. Rachmania, LARAS (DÉCOR MAGAZINE), Indonesia
 
 1999, March   
 ‘_Life Styles_’ MARIE CLAIRE, France
@@ -108,3 +108,8 @@ Winner of fine art competition at the american embassy school, New Delhi
 
 1989   
 Deans list F.I.T New York
+
+
+### Curriculum vitae
+
+[Download Davina's CV](https://davinastephens.com/assets/pdf/Davina-Stephens-cv.pdf)
