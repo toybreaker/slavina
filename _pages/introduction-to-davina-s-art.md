@@ -30,4 +30,4 @@ Her work method proceeds by building up her paintings by layers, weaving them to
 
 ### Curriculum vitae
 
-[Download Davina CV](https://davinastephens.com/assets/pdf/Davina-Stephens-cv.pdf)
+[Download Davina's CV](https://davinastephens.com/assets/pdf/Davina-Stephens-cv.pdf)
