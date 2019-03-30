@@ -4,7 +4,7 @@ subtitle: ""
 description: "Davina Stephens’ art is permeated by locally significant elements and atmospheres while evocating a global sensibility. Her celebration of the freedom of living, thru story telling, the tropical travels scenes and her use of colour, convey, through different materials, media and techniques, a unique recognisable character which took her artworks to international recognition."
 keywords: acrylic, woodblocks, canvas, archipelago, painter, painting, New Zealander, New Zealand artist
 lang: en
-version: 0.1.1
+version: 0.1.2
 baseurl: ""
 url: "https://davinastephens.com"
 qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
@@ -21,7 +21,7 @@ company:
   country: #
   twitter: #
   facebook_page: https://web.facebook.com/davinastephensart
-  youtube:
+  youtube: https://www.youtube.com/user/davinastephensart
   instagram: https://www.instagram.com/davinastephensart/
   vimeo:
   booking: #complete URL
