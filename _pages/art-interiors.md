@@ -2,13 +2,13 @@
 layout: hero
 title: Art Interiors
 subtitle:
-description: "The practice of acquiring art is widespread. Featured artwork in interiors."
+description: "The practice of acquiring art is widespread. Featured artwork in interiors. Davina has been working with Interiors Designers and Architects planning and delivering artworks to boutique hotels and restaurants."
 publish: # notyet or blank
 image:  /assets/p/art-interiors/art-interiors.jpg
 image_align_bottom: true #true or empty
 ---
 
-# Artworks in locations
+# Artwork in location
 
 
 {% include image.html name="-02" caption="The Luxe Bali, Indonesia" %}

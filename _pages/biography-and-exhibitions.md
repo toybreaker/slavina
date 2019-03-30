@@ -1,8 +1,8 @@
 ---
 layout: hero
-title: Artist Biography and Exhibitions
+title: Biography and Exhibitions
 subtitle:
-description: "Selected Solo Exhibitions, Selected Group Shows."
+description: "Selected Solo Exhibitions, Selected Group Shows. Born in Wellington, New Zealand, Davina has been living between Australia, Indonesia and the Pacific. She exibited in Thailand, Brasil, Usa, India, Singapore, France, Indonesia and Australia."
 publish: # notyet or blank
 image: /assets/p/others/davina-stephens-bio.jpg
 image_align_bottom: true #true or empty
@@ -10,7 +10,7 @@ image_align_bottom: true #true or empty
 
 Born 24th August 1968  
 Wellington, New Zealand  
-Lives between Australia, Indonesia and the Pacific.
+Lives between Australia, New Zealand, Indonesia and the Pacific.
 
 
 ## Selected Solo Exhibitions

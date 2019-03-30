@@ -3,8 +3,9 @@
   display: block;
   padding: $vertical_rhythm 0;
   width: 100%;
-  background-color: $grey--light;
-
+  background-color: $brand_color;
+  border-top: darken($bg_color, 20) 1px solid;
+  
   .container {
     display: -webkit-box;
     display: -ms-flexbox;

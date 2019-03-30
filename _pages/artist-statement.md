@@ -17,7 +17,7 @@ It’s here, and in these elements, that I find my fascination.
 
 I build up a painting by layers. I print using the Javanese ‘Cap’ Batik stamps.
 
-I work with multiple ‘caps’, each time applying a wash of colour, and in many variable methods, focusing on details, I then weave these methods together so that when the painting is viewed as a whole a new visual emotion is revealed.
+I work with multiple 'woodblocks', each time applying a wash of colour, and in many variable methods, focusing on details, I then weave these methods together so that when the painting is viewed as a whole a new visual emotion is revealed.
 
 Somebody has described me as a testimony of the fast changing world that Indonesia is, visually recording its manifold changes.
 

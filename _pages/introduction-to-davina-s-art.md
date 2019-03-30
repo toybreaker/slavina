@@ -1,14 +1,14 @@
 ---
 layout: hero
-title: Artist Introduction
+title: Introduction to Davina's art
 subtitle:
-description: "Her celebration of the freedom of living, thru story telling, the tropical travels scenes and her use of color convey, through different materials, media and techniques, a unique recognizable character which took her artworks to international recognition. Pop art, neo-figuration, or naïve art fall short of defining her style. Her works take on a contemporary character in her use of print and paint, maps and stamps, and in the compositional play of space and texture."
+description: "Her celebration of the freedom of living, thru story telling, the tropical travels scenes and her use of colour convey, through different materials, media and techniques, a unique recognisable character which took her artworks to international recognition. Pop art, neo-figuration, or naïve art fall short of defining her style. Her works take on a contemporary character in her use of print and paint, maps and stamps, and in the compositional play of space and texture."
 publish: # notyet or blank
 image:  /assets/p/others/davina-stephens-tecnique.jpg
 image_align_bottom: true #true or empty
 ---
 
->"...what Davina sees with her open spontaneous eyes is a transient, multicultural world in which people communicate with each other mainly by exchanging 'things' or going places rather than by exchanging ideas. A significant artist with a significant message" _Jean Coteau, art critic_
+>"...what Davina sees with her open spontaneous eyes is a transient, multicultural world in which people communicate with each other mainly by exchanging 'things' or going places rather than by exchanging ideas. A significant artist with a significant message" _Jean Coteau, art critic journalist._
 
 ## Introduction
 
@@ -16,7 +16,7 @@ Davina Stephens’ art is permeated by locally significant elements and atmosphe
 
 Through a nomadic life Davina has emerged from lands and seas surrounded by mysticism. With one foot in the West and the other in the East she absorbs and makes her own, typical Balinese ‘non-perspective’ or ‘repetitive’ painting styles.
 
-Her celebration of the freedom of living, thru story telling, the tropical travels scenes and her use of colour, convey, through different materials, media and techniques, a unique recognisable character which took her artworks to international recognition.
+Her celebration of the freedom of living, thru story telling, the tropical travel scenes and her use of colour, convey, through different materials, media and techniques, a unique recognisable character which took her artworks to international recognition.
 
 Pop art, neo-figuration, or naïve art fall short of defining her style. Her works take on a contemporary character in her use of print and paint, maps and stamps, and in the compositional play of space and texture.
 
