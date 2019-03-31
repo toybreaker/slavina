@@ -1,6 +1,6 @@
 ---
 layout: hero
-title: Art Interiors
+title: Art interiors
 subtitle:
 description: "The practice of acquiring art is widespread. Featured artwork in interiors. Davina has been working with Interiors Designers and Architects planning and delivering artworks to boutique hotels and restaurants."
 publish: # notyet or blank
