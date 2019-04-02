@@ -2,6 +2,10 @@
   border-top: darken($bg_color, 20) 1px solid;
   text-align: center;
 
+  a:hover {
+    color: $grey--darker;
+  }
+
   .container {
     h1,
     h2,
@@ -12,6 +16,7 @@
     }
   }
 }
+
 
 a[class*=set-] {
   line-height: 28px;

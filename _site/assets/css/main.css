@@ -1033,6 +1033,8 @@ section {
 .tagcloud_block {
   border-top: #cccccc 1px solid;
   text-align: center; }
+  .tagcloud_block a:hover {
+    color: gray; }
   .tagcloud_block .container h1,
   .tagcloud_block .container h2,
   .tagcloud_block .container h3,
