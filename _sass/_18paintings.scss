@@ -23,9 +23,9 @@
 }
 
 .painting_data  {
-  padding-top: $vertical_rhythm--small/2;
+  padding-top: $vertical_rhythm--small;
   padding-bottom:0;
-  line-height: 1;
+  line-height: 1.1;
 
   .painting_data--content {
     font-weight: $font_weight--light;
@@ -36,8 +36,8 @@
     font-style: italic;
     font-size: 14px;
     font-weight: $font_weight--min;
+    padding-right: $vertical_rhythm--small/3;
   }
-
 }
 
 .tag_page,

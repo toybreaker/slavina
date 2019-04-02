@@ -294,10 +294,28 @@ a.underline {
   a.underline:hover {
     top: 1px; }
 
+.top_padded {
+  padding-top: 2rem; }
+
+.bottom_padded--med {
+  padding-bottom: 1.5rem; }
+
+.top_padded--med {
+  padding-top: 1.5rem; }
+
+.bottom_padded {
+  padding-bottom: 2rem; }
+
+.top_padded--thin {
+  padding-top: 1rem; }
+
+.bottom_padded--thin {
+  padding-bottom: 1rem; }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
-  font-weight: 400; }
+  font-weight: 300; }
   .content h1,
   .content h2,
   .content h3,
@@ -372,18 +390,6 @@ h6 {
   @media (min-width: 1300px) {
     h6 {
       font-size: 26px; } }
-
-.top_padded {
-  padding-top: 2rem; }
-
-.bottom_padded {
-  padding-bottom: 2rem; }
-
-.top_padded--thin {
-  padding-top: 1rem; }
-
-.bottom_padded--thin {
-  padding-bottom: 1rem; }
 
 .menu {
   padding: 0;
@@ -510,7 +516,7 @@ h6 {
 .footer {
   color: #595959;
   display: block;
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
   width: 100%;
   background-color: white;
   border-top: #cccccc 1px solid; }
@@ -542,18 +548,12 @@ h6 {
     height: 100px;
     margin-bottom: 2rem; }
   .footer .title {
-    font-weight: 600;
-    font-size: 1.3rem;
     margin-top: 1rem;
     padding-top: 2rem;
-    padding-bottom: 0.3333333333rem;
     margin-bottom: 0.3333333333rem;
-    border-bottom: 1px solid #a6a6a6;
     width: 100%; }
     @media only screen and (min-width: 601px) {
       .footer .title {
-        border-bottom: 0 none;
-        padding-top: 0;
         width: auto; } }
   .footer svg {
     width: 30px;
@@ -626,7 +626,8 @@ h6 {
 .copyright {
   font-size: 10px;
   padding-top: 2rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  color: #a6a6a6; }
 
 .svg_color {
   fill: gray; }
@@ -776,8 +777,7 @@ figure {
   padding: 0; }
 
 figcaption {
-  text-transform: capitalize;
-  font-weight: 500; }
+  text-transform: capitalize; }
   .post_content_image figcaption {
     margin-top: 1rem;
     margin-bottom: 2rem; }
@@ -992,16 +992,17 @@ section {
     margin-bottom: 0; }
 
 .painting_data {
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   padding-bottom: 0;
-  line-height: 1; }
+  line-height: 1.1; }
   .painting_data .painting_data--content {
     font-weight: 400;
     font-size: 16px; }
   .painting_data .painting_data--name {
     font-style: italic;
     font-size: 14px;
-    font-weight: 300; }
+    font-weight: 300;
+    padding-right: 0.3333333333rem; }
 
 .tag_page .painting_data--content,
 .serie .painting_data--content {

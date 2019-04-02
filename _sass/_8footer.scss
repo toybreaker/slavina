@@ -1,11 +1,11 @@
 .footer {
   color: $grey--darkest;
   display: block;
-  padding: $vertical_rhythm 0;
+  padding: 0 0 $vertical_rhythm 0;
   width: 100%;
   background-color: $brand_color;
   border-top: darken($bg_color, 20) 1px solid;
-  
+
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -39,17 +39,11 @@
   }
 
   .title {
-    font-weight: $font_weight--strong;
-    font-size: 1.3rem;
     margin-top: $vertical_rhythm--small ;
     padding-top: $vertical_rhythm;
-    padding-bottom: $vertical_rhythm/6;
     margin-bottom: $vertical_rhythm/6;
-    border-bottom: 1px solid $grey--dark;
     width: 100%;
     @include media( "screen", ">minWidth") {
-      border-bottom: 0 none;
-      padding-top: 0;
       width: auto;
     }
   }
@@ -140,4 +134,5 @@
   font-size: 10px;
   padding-top: $vertical_rhythm;
   margin-top: $vertical_rhythm;
+  color: $grey--dark;
 }

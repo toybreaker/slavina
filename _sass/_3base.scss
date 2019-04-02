@@ -210,3 +210,30 @@ a.underline {
     top: 1px;
   }
 }
+
+
+
+
+.top_padded {
+  padding-top: $vertical_rhythm;
+}
+
+.bottom_padded--med {
+  padding-bottom: $vertical_rhythm--small*1.5;
+}
+
+.top_padded--med {
+  padding-top: $vertical_rhythm--small*1.5;
+}
+
+.bottom_padded {
+  padding-bottom: $vertical_rhythm;
+}
+
+.top_padded--thin {
+  padding-top: $vertical_rhythm--small;
+}
+
+.bottom_padded--thin {
+  padding-bottom: $vertical_rhythm--small;
+}

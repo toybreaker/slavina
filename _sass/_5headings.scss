@@ -6,7 +6,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-weight: $font_weight--light;
+  font-weight: $font_weight--min;
   .content & {
     margin-top: $vertical_rhythm;
     margin-bottom: $vertical_rhythm;
@@ -21,7 +21,6 @@ h1 {
   @include responsive-font($heading1_responsive, $heading1_min, $heading1_max);
   line-height: 1.2;
   color: $grey--dark;
-  //font-weight: $font_weight--reg;
 }
 
 h2 {
@@ -49,21 +48,4 @@ h5 {
 h6 {
   @include responsive-font($heading6_responsive, $heading6_min, $heading6_max);
   line-height: 1;
-}
-
-
-.top_padded {
-  padding-top: $vertical_rhythm;
-}
-
-.bottom_padded {
-  padding-bottom: $vertical_rhythm;
-}
-
-.top_padded--thin {
-  padding-top: $vertical_rhythm--small;
-}
-
-.bottom_padded--thin {
-  padding-bottom: $vertical_rhythm--small;
 }

@@ -7,7 +7,7 @@
 
       <div class="menu_products series" role="menu">
 
-        <div class="title">Series</div>
+        <h3 class="title uppercase bottom_padded--med">Series Titles</h3>
 
         {% for item in site.series %}
 
@@ -28,7 +28,7 @@
         {% endfor %}
 
 
-        <div class="title">Details</div>
+          <h3 class="title uppercase bottom_padded--med">Details</h3>
 
         {% for item in site.pages %}
 
@@ -55,7 +55,7 @@
 
       <div class="menu_contacts" role="menu">
 
-        <div class="title">{{site.title}}&nbsp;<span class="show_on_phones"></span><span class="hide_on_phones"></span></div>
+        <h3 class="title uppercase bottom_padded--med">{{site.title}}</h3>
 
         {% if site.company.address %}
         <div class="footer_icon address">

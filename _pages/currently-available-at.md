@@ -22,7 +22,7 @@ image_align_bottom: #true or empty
 
 [**The Oberoi** Seminyak, Bali](https://goo.gl/maps/NkxmCQKF9L82)
 
-[**Indi-vie** Legian, Bali](https://goo.gl/maps/Y8nyp18c8pz)
+[**Indi-vie** Legian, Bali](https://goo.gl/maps/aBMUtGrUwCk)
 
 [**Padma** Resort Legian, Bali](https://goo.gl/maps/ej3NA1CAv2F2)
 
