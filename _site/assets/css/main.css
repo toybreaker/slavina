@@ -503,15 +503,15 @@ h6 {
         text-align: left; } }
 
 .site_title {
-  font-size: 10vw;
+  font-size: 8vw;
   line-height: 2;
   font-weight: 300; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .site_title {
-      font-size: 32px; } }
-  @media (min-width: 560px) {
+      font-size: 30px; } }
+  @media (min-width: 650px) {
     .site_title {
-      font-size: 56px; } }
+      font-size: 52px; } }
 
 .footer {
   color: #595959;
