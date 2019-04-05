@@ -10,15 +10,15 @@ image_align_bottom: #true or empty
 
 ## Menyadari Tatanan Baru Dari Permainan Struktur
 
+## Realising the New Order of Structural Games
+
 Davina Stephens yang banyak bekerja antar lintas budaya lewat berbagai negara yang pernah dikunjungi maupun menetap untuk sekian lama, cukup untuk memunculkan berbagai prasangka mengenai metode kerja yang dilakukannya.
 
 Apakah Davina bekerja dengan menggabungkan kerja antropolog dengan kerja seorang seniman perupa? Apakah Davina sedang melakukan eksperimen budaya lewat dirinya sendiri untuk mendapatkan “posisi personal” dari permainan “politik jarak” dengan memasukkan dirinya langsung dalam berbagai pergaulan antar budaya?
 
 Inti dari prasangka ini cukup penting untuk seorang seniman memahami politik identitas lewat perbandingan dan pengalaman langsung dengan perbedaan budaya satu dengan budaya lain yang pernah dimasukinya.
 
-Apa yang dialami Davina sebagai perempuan Barat, misalnya, saat bertemu dengan “konde” untuk sanggul perempuan Bali atau Jawa, pastilah berbeda dengan bagaimana persepsi politik Nindityo yang banyak menggunakan konde sebagai tema karya-karya instalasinya.
-
-Sebagian pengamat melihat karya-karya Davina bersinggungan dengan pop art, neo- guration, atau naïve art. Singgungan ini tidak lagi signi kan untuk melihat karya-karyamya, karena kini adalah era dimana begitu banyak seniman yang menjadikan berbagai aliran sebagai lalu-lintas medan kreatifnya.
+Sebagian pengamat melihat karya-karya Davina bersinggungan dengan pop art, neoguration, atau naïve art. Singgungan ini tidak lagi signi kan untuk melihat karya-karyamya, karena kini adalah era dimana begitu banyak seniman yang menjadikan berbagai aliran sebagai lalu-lintas medan kreatifnya.
 
 Cara Davina yang menggunakan berbagai materi, media maupun teknik, memang membuatnya seperti melakukan familiarisasi dengan berbagai aliran besar dalam sejarah seni rupa.
 
