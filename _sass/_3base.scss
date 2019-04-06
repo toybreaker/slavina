@@ -227,13 +227,17 @@ a.underline {
 }
 
 .bottom_padded {
-  padding-bottom: $vertical_rhythm;
+  padding-bottom: $vertical_rhythm!important;
 }
 
 .top_padded--thin {
-  padding-top: $vertical_rhythm--small;
+  padding-top: $vertical_rhythm--small!important;
 }
 
 .bottom_padded--thin {
-  padding-bottom: $vertical_rhythm--small;
+  padding-bottom: $vertical_rhythm--small!important;
+}
+
+.bottom_margin--thin {
+  margin-bottom: $vertical_rhythm--small!important;
 }
