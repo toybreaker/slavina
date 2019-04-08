@@ -1,6 +1,6 @@
 ---
 layout: hero
-title: Currently showing at
+title: Currently available at
 subtitle:
 description: "Davina paintings, fine-art prints and gift-cards are currently available at these selected locations. Here is a list complete with map links."
 publish: notyet # notyet or blank
