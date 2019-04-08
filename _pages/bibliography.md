@@ -1,7 +1,6 @@
 ---
 layout: hero
-title: Bibliography and press reviews
-subtitle:
+title: Bibliography
 description: "what Davina sees with her open spontaneous eyes is a transient, multicultural world in which people communicate with each other mainly by exchanging things or going places rather than by exchanging ideas. A significant artist with a significant message _ Jean Coteau"
 publish: # notyet or blank
 image: /assets/p/others/davina-stephens-profile.jpg

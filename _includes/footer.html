@@ -30,7 +30,7 @@
 
           <h3 class="title uppercase bottom_padded--med">About</h3>
 
-        {% for item in site.pages %}
+        {% for item in site.pages reversed %}
 
           {% if page.url contains item.url %}
             {% unless item.publish=="notyet" %}
