@@ -696,7 +696,7 @@ a {
   text-decoration: none;
   color: black;
   border-bottom: 1px solid transparent; }
-  .footer a {
+  .footer a, .tagcloud_block a {
     color: #595959; }
   a:hover, a:focus {
     color: #0d0d0d; }
@@ -979,7 +979,11 @@ section {
 
 .painting_link {
   display: block;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  color: #a6a6a6; }
+
+.painting_title {
+  padding-top: 1rem; }
 
 .painting_grid {
   display: grid;
@@ -1006,7 +1010,6 @@ section {
     height: 100%; }
 
 .painting_data {
-  padding-top: 1rem;
   padding-bottom: 0;
   line-height: 1.1; }
   .painting_data .painting_data--content {

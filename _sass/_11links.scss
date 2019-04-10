@@ -6,7 +6,8 @@ a {
   color: $link_color;
   border-bottom: 1px solid transparent;
 
-  .footer & {
+  .footer &,
+  .tagcloud_block & {
     color: $grey--darkest;
   }
 
