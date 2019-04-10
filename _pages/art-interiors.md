@@ -11,7 +11,7 @@ image_align_bottom: true #true or empty
 # Artwork in location
 
 
-{% include image.html name="-02" caption="[The Luxe](https://theluxebali.com), Padang Padang, Bali, Indonesia" %}
+{% include image.html name="-02" caption="The Luxe, Padang Padang, Bali, Indonesia" %}
 
 {% include image.html name="-03" caption="Jenggala Keramic, Jimbaran, Bali, Indonesia" %}
 
