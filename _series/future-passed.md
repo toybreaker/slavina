@@ -1,6 +1,6 @@
 ---
 layout: series
-title: This Side Of Paradise
+title: Future Passed
 subtitle: "&#39;Women Centred&#39; celebration of life series."
 description:
 publish: # notyet or blank
