@@ -5,7 +5,7 @@
 }
 
 .painting_title {
-    padding-top: $vertical_rhythm--small;
+    padding-top: $vertical_rhythm--small + $vertical_rhythm--small !important ;
 }
 
 .painting_grid {
@@ -40,9 +40,23 @@
 }
 
 .painting_data  {
-  //padding-top: $vertical_rhythm--small;
+  padding-top: $vertical_rhythm--small;
   padding-bottom:0;
   line-height: 1.1;
+
+  @include media("screen", ">minWidth") {
+    display: table-row;
+  }
+
+  @include media("screen", ">minWidth") {
+
+    .painting_data--content,
+    .painting_data--name {
+      display: table-cell!important;
+      padding-top: $vertical_rhythm--small;
+      padding-right: $vertical_rhythm!important;
+    }
+  }
 
   .painting_data--content {
     font-weight: $font_weight--light;
