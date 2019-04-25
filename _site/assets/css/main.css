@@ -978,13 +978,16 @@ section {
         .responsive_table_block td:before {
           display: none; } }
 
+.painting_link_box {
+  padding-top: 2rem; }
+
 .painting_link {
   display: block;
   margin-bottom: 2rem;
   color: #a6a6a6; }
 
 .painting_title {
-  padding-top: 2rem !important; }
+  padding-top: 1rem; }
 
 .painting_grid {
   display: grid;
