@@ -13,6 +13,8 @@ image_align_bottom: true #true or empty
 
 {% include image.html name="-02" caption="The Luxe, Padang Padang, Bali, Indonesia" %}
 
+{% include image.html name="-06" caption="Private Residence, Auckland, New Zealand" %}
+
 {% include image.html name="-03" caption="Jenggala Keramic, Jimbaran, Bali, Indonesia" %}
 
 {% include image.html name="-04" caption="Indi-vie, Legian, Bali, Indonesia" %}
