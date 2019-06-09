@@ -4,7 +4,7 @@ title: Currently available at
 subtitle:
 description: "Davina paintings, fine-art prints and gift-cards are currently available at these selected locations. Here is a list complete with map links."
 publish: # notyet or blank
-image: /assets/p/paintings/davina-stephens-2019003.jpg
+image: /assets/p/paintings/davina-stephens-2019009.jpg
 image_align_bottom: #true or empty
 ---
 
