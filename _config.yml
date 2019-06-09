@@ -73,6 +73,9 @@ collections:
  series:
   output: true
   permalink: /:title/
+ about:
+  output: true
+  permalink: /:title/
  pages:
   output: true
   permalink: /:title/
