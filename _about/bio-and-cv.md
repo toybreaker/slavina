@@ -60,6 +60,8 @@ Lives between Australia, New Zealand, Indonesia and the Pacific.
 
 ## Selected Group Shows
 
+2019 Auckland Art Fair – Auckland, New Zealand
+
 2018 Cush Cush Gallery – **"The Garden"** American Club, Singapore
 
 2007 Fontanihas Heritage Festival of the Arts - Panjim, Goa, India
