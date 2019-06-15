@@ -15,8 +15,13 @@
 
 .painting_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+
+  @include media("screen", ">minWidth") {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
   &.bigger {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
@@ -95,4 +100,22 @@
 
 .painting_serie a {
   font-weight: $font_weight--light!important;
+}
+
+
+.painting_thumb {
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+
+
+  .painting_thumb_image {
+    height: 160%;
+    width: auto;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+
 }

@@ -15,12 +15,14 @@ layout: default
 
         {% assign f = post.image | split: '.' %}
 
-        <img class="painting_thumb" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
-             srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
-                     {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
-                     {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
-                     {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
-             sizes="50vw" alt="{{ post.title }}, {{ post.medium }}">
+        <div class="painting_thumb">
+          <img class="painting_thumb_image" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
+               srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
+                       {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
+                       {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
+                       {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
+               sizes="50vw" alt="{{ post.title }}, {{ post.medium }}">
+        </div>
 
         <div class="painting_data">
           <div class=" painting_title">
