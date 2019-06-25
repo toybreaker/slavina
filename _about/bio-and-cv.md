@@ -2,7 +2,7 @@
 layout: hero
 title: Bio and CV
 subtitle:
-description: "Selected Solo Exhibitions, Selected Group Shows. Born in Wellington, New Zealand, Davina has been living between Australia, Indonesia and the Pacific. She exibited in Thailand, Brasil, Usa, India, Singapore, France, Indonesia and Australia."
+description: "Selected Solo Exhibitions, Selected Group Shows. Born in Wellington, New Zealand, Davina has been living between Australia, Indonesia and the Pacific. She exhibited in Thailand, Brazil, USA, India, Singapore, France, Indonesia and Australia."
 publish: # notyet or blank
 image: /assets/p/others/davina-stephens-bio.jpg
 image_align_bottom: true #true or empty
