@@ -16,4 +16,8 @@
     <h1 class="">{{ site.subtitle }}</h1>
   </div>
 
+    {% if page.exhibition %}
+      {% include exhibition.html %}
+    {% endif %}
+
  </div>

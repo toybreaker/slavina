@@ -716,7 +716,7 @@ a {
       padding-top: 5px;
       padding-bottom: 5px; }
 
-[role="main"] a:not(.card):not(.button):not(.painting_link) {
+[role="main"] a:not(.card):not(.button):not(.painting_link):not(.clean_link) {
   color: #595959;
   text-decoration: none;
   border-bottom: 3px solid #e6e6e6;
@@ -724,9 +724,9 @@ a {
   /* box shadow adds additional thickness*/
   -webkit-transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
   transition: background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1); }
-  [role="main"] a:not(.card):not(.button):not(.painting_link):focus, [role="main"] a:not(.card):not(.button):not(.painting_link):hover {
+  [role="main"] a:not(.card):not(.button):not(.painting_link):not(.clean_link):focus, [role="main"] a:not(.card):not(.button):not(.painting_link):not(.clean_link):hover {
     background: #e6e6e6; }
-  [role="main"] a:not(.card):not(.button):not(.painting_link) strong {
+  [role="main"] a:not(.card):not(.button):not(.painting_link):not(.clean_link) strong {
     color: inherit; }
 
 .product_page_title {
@@ -734,7 +734,7 @@ a {
 
 .hero {
   position: relative;
-  height: calc(100vh - 40px);
+  height: calc(100vh - 75px);
   overflow: hidden;
   z-index: 1; }
 
@@ -754,7 +754,7 @@ a {
     .hero_image {
       min-width: 100%;
       height: auto;
-      min-height: calc(100vh - 40px); } }
+      min-height: calc(100vh - 80px); } }
   .hero_image.align_bottom {
     bottom: 0;
     top: auto;
@@ -779,6 +779,29 @@ a {
     font-weight: 700;
     line-height: 1;
     text-align: center; }
+
+.exhibition_block {
+  position: absolute;
+  z-index: 101;
+  width: 100vw;
+  height: 6vh;
+  top: calc(100vh - 22vh); }
+  @media only screen and (min-width: 601px) {
+    .exhibition_block {
+      top: calc(100vh - 25vh); } }
+  .exhibition_block .exhibition_text {
+    text-align: center;
+    background-color: white;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.3333333333rem 1rem; }
+    @media only screen and (min-width: 601px) {
+      .exhibition_block .exhibition_text {
+        width: 50%; } }
+    @media only screen and (min-width: 841px) {
+      .exhibition_block .exhibition_text {
+        width: 40%; } }
 
 figure {
   position: relative;

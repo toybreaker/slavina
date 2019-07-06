@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: calc(100vh - 40px);
+  height: calc(100vh - 75px);
   overflow: hidden;
   z-index: 1;
 }
@@ -21,7 +21,7 @@
   @include media( "screen", ">bp1Width") {
     min-width: 100%;
     height: auto;
-    min-height: calc(100vh - 40px);
+    min-height: calc(100vh - 80px);
   }
 
   &.align_bottom {
@@ -53,4 +53,29 @@
     text-align: center;
   }
 
+}
+
+.exhibition_block {
+  position: absolute;
+  z-index: 101;
+  width: 100vw;
+  height: 6vh;
+  top: calc(100vh - 22vh);
+  @include media( "screen", ">minWidth") {
+      top: calc(100vh - 25vh);
+  }
+  .exhibition_text {
+    text-align: center;
+    background-color: white;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $vertical_rhythm--small/3 $vertical_rhythm--small;
+    @include media( "screen", ">minWidth") {
+      width: 50%;
+    }
+    @include media( "screen", ">bp1Width") {
+      width: 40%;
+    }
+  }
 }
