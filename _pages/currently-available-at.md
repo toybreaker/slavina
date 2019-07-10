@@ -2,7 +2,7 @@
 layout: hero
 title: Currently available at
 subtitle:
-description: "Davina "Revealing The Archipelago" is exhibiting at Amankila, Bali until end August. You can also view Davina artworks at these selected locations."
+description: "Davina - Revealing The Archipelago - is exhibiting at Amankila, Bali until end August. You can also view Davina artworks at these selected locations."
 publish: # notyet or blank
 image: /assets/p/paintings/davina-stephens-2019009.jpg
 image_align_bottom: #true or empty
