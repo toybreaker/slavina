@@ -2,7 +2,7 @@
 layout: hero
 title: Currently available at
 subtitle:
-description: "Davina paintings, fine-art prints and gift-cards are currently available at these selected locations. Here is a list complete with map links."
+description: "Davina "Revealing The Archipelago" is exhibiting at Amankila, Bali until end August. You can also view Davina artworks at these selected locations."
 publish: # notyet or blank
 image: /assets/p/paintings/davina-stephens-2019009.jpg
 image_align_bottom: #true or empty
@@ -12,7 +12,7 @@ image_align_bottom: #true or empty
 
 [**Amankila**	Mangis,	Bali](https://g.page/amankila?share)
 
-### You can view Davina works at
+### You can view Davina artworks at
 
 [**Warisan Casa**	Jimbaran,	Bali](https://goo.gl/maps/R3YG7Q416UQ2)
 
