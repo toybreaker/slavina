@@ -1,0 +1,46 @@
+//print styles loading last
+
+@include media("print") {
+  .tagcloud_block,
+  .painting_data.tags,
+  .menu_contacts,
+  .footer_icon.telephone,
+  .footer_icon.youtube,
+  .footer_icon.instagram,
+  .footer_icon.facebook,
+  .footer .menu_products.series,
+  .footer .title.uppercase.bottom_padded--med {
+    display: none;
+  }
+
+  .copyright {
+    padding-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .site_title {
+    font-size: 32px;
+  }
+
+  .footer .container  {
+    padding: 1rem;
+  }
+
+  .header.group {
+    padding-bottom: 0;
+  }
+
+  .painting_data {
+    .painting_data--name,
+    .painting_data--content {
+      display: inline-block!important;
+    }
+  }
+
+  [role="main"] .container a {
+    border-bottom: 0 none!important;
+    box-shadow: none!important;
+  }
+ }
