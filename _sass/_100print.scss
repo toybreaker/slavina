@@ -1,6 +1,6 @@
 //print styles loading last
 
-@include media("print") {
+// @include media("print") {
   .tagcloud_block,
   .painting_data.tags,
   .menu_contacts,
@@ -33,6 +33,9 @@
   }
 
   .painting_data {
+    .painting_data--name {
+      font-style: normal;
+    }
     .painting_data--name,
     .painting_data--content {
       display: inline-block!important;
@@ -43,4 +46,4 @@
     border-bottom: 0 none!important;
     box-shadow: none!important;
   }
- }
+ // }
