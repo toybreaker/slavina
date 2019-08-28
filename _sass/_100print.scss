@@ -42,7 +42,9 @@
     }
   }
 
-
+  .painting_data_block {
+    margin-left: 23vw;
+  }
 
   .painting_data {
     display: block;
@@ -65,6 +67,8 @@
   }
 
   .painting_image {
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: .5rem;
     &.tall_image {
       max-height: 800px;

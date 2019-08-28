@@ -1195,6 +1195,9 @@ a[class*=set-] {
     .footer .container {
       padding: 1rem; }
 
+  .painting_data_block {
+    margin-left: 23vw; }
+
   .painting_data {
     display: block;
     padding-top: .2rem;
@@ -1212,6 +1215,8 @@ a[class*=set-] {
     box-shadow: none !important; }
 
   .painting_image {
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: .5rem; }
     .painting_image.tall_image {
       max-height: 800px;
