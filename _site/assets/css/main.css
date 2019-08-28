@@ -1172,6 +1172,14 @@ a[class*=set-] {
   .footer .title.uppercase.bottom_padded--med {
     display: none; }
 
+  .header.group {
+    border-bottom: #cccccc 1px solid;
+    padding-bottom: 1rem; }
+
+  .container {
+    padding-bottom: 1rem;
+    padding-top: 1rem; }
+
   .copyright {
     padding-top: 0;
     padding-top: 0;
@@ -1179,20 +1187,32 @@ a[class*=set-] {
     text-align: center; }
 
   .site_title {
-    font-size: 32px; }
+    font-size: 22px;
+    line-height: 1.2; }
 
-  .footer .container {
-    padding: 1rem; }
+  .footer {
+    padding: 0; }
+    .footer .container {
+      padding: 1rem; }
 
-  .header.group {
-    padding-bottom: 0; }
-
-  .painting_data .painting_data--name {
-    font-style: normal; }
-  .painting_data .painting_data--name,
-  .painting_data .painting_data--content {
-    display: inline-block !important; }
+  .painting_data {
+    display: block;
+    padding-top: .2rem;
+    line-height: 0.75; }
+    .painting_data .painting_data--name {
+      font-style: normal;
+      min-width: 110px; }
+    .painting_data .painting_data--name,
+    .painting_data .painting_data--content {
+      font-size: 11px;
+      display: inline-block !important; }
 
   [role="main"] .container a {
     border-bottom: 0 none !important;
-    box-shadow: none !important; } }
+    box-shadow: none !important; }
+
+  .painting_image {
+    margin-bottom: .5rem; }
+    .painting_image.tall_image {
+      max-height: 800px;
+      width: auto; } }

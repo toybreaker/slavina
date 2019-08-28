@@ -24,7 +24,7 @@
 
           {% assign f = page.image | split: '.' %}
 
-          <img class="painting_image" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
+          <img class="painting_image {% if page.tall_image %}tall_image{% endif %}" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
                srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
                        {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
                        {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
