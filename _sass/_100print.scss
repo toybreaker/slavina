@@ -1,6 +1,6 @@
 //print styles loading last
 
-// @include media("print") {
+@include media("print") {
   .tagcloud_block,
   .painting_data.tags,
   .menu_contacts,
@@ -46,4 +46,4 @@
     border-bottom: 0 none!important;
     box-shadow: none!important;
   }
- // }
+}
