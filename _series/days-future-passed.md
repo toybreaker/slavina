@@ -1,6 +1,6 @@
 ---
 layout: series
-title: Women in paradise
+title: Days Future Passed
 subtitle: "&#39;Women Centred&#39; celebration of life series."
 description:
 publish: # notyet or blank
