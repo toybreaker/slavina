@@ -3,6 +3,10 @@
   border-top: darken($bg_color, 20) 1px solid;
   text-align: center;
 
+  .unlisted & {
+    display: block;
+  }
+
   a:hover {
     color: $grey--darker;
   }

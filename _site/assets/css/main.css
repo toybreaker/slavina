@@ -1107,6 +1107,8 @@ section {
   display: none;
   border-top: #cccccc 1px solid;
   text-align: center; }
+  .unlisted .tagcloud_block {
+    display: block; }
   .tagcloud_block a:hover {
     color: gray; }
   .tagcloud_block .container h1,
