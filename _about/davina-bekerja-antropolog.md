@@ -10,8 +10,6 @@ image_align_bottom: #true or empty
 
 ## Menyadari Tatanan Baru Dari Permainan Struktur
 
-## Realising the New Order of Structural Games
-
 Davina Stephens yang banyak bekerja antar lintas budaya lewat berbagai negara yang pernah dikunjungi maupun menetap untuk sekian lama, cukup untuk memunculkan berbagai prasangka mengenai metode kerja yang dilakukannya.
 
 Apakah Davina bekerja dengan menggabungkan kerja antropolog dengan kerja seorang seniman perupa? Apakah Davina sedang melakukan eksperimen budaya lewat dirinya sendiri untuk mendapatkan “posisi personal” dari permainan “politik jarak” dengan memasukkan dirinya langsung dalam berbagai pergaulan antar budaya?
