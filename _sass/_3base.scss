@@ -101,12 +101,17 @@ svg {
     padding: $vertical_rhythm*1.5;
   }
 
+  @include media( "screen", ">bp1Width") {
+    padding: $vertical_rhythm*3;
+  }
+
   // @include media( "screen", ">bp1Width") {
   //   max-width: 1000px;
   //   margin: 0 auto;
   // }
   //
   @include media( "screen", ">maxWidth") {
+    padding: $vertical_rhythm*4;
     max-width: 1920px; //fullHD
     margin: 0 auto;
   }
