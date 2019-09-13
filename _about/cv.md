@@ -1,6 +1,6 @@
 ---
 layout: hero
-title: Bio and CV
+title: CV
 subtitle:
 description: "Selected Solo Exhibitions, Selected Group Shows. Born in Wellington, New Zealand, Davina has been living between Australia, Indonesia and the Pacific. She exhibited in Thailand, Brazil, USA, India, Singapore, France, Indonesia and Australia."
 publish: # notyet or blank

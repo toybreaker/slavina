@@ -586,12 +586,6 @@ h6 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
-  @media only screen and (min-width: 601px) {
-    .menu_footer {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-      flex-direction: row; } }
   .menu_footer .menu_item {
     min-height: 42px;
     display: -webkit-box;

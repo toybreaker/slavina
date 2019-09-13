@@ -14,13 +14,13 @@
           {% if page.url contains item.url %}
             {% unless item.publish == "notyet" %}
             <a class="menu_item active" role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="">{{ item.title }}</span>
+              <span class="">{{ item.title }}, {{ item.year }}</span>
             </a>
             {% endunless %}
           {% else %}
             {% unless item.publish == "notyet" %}
             <a class="menu_item " role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="page_title">{{ item.title }}</span>
+              <span class="page_title">{{ item.title }}, {{ item.year }}</span>
             </a>
             {% endunless %}
           {% endif %}

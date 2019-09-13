@@ -5,4 +5,5 @@ subtitle: Reflection of cosmological ideas, rituals enacted within the houses, v
 description:
 publish: # notyet or blank
 image:  /assets/p/paintings/davina-stephens-2016019.jpg
+year: 2014-2018
 ---

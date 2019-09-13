@@ -1,8 +1,9 @@
 ---
 layout: series
 title: Manifold Changes
-subtitle: 
+subtitle:
 description:
 publish: # notyet or blank
 image:  /assets/p/paintings/davina-stephens-2007024.jpg
+year: 1998-2000
 ---
