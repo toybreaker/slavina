@@ -19,29 +19,15 @@ Lives between Australia, New Zealand, Indonesia and the Pacific.
 
 2011 Ganesha Gallery **“From Bali with love”** Bali, Indonesia
 
-2010 Sangolda **“Floating map”** Goa, India
-
 2009 Thavibu Gallery **“Floating map”** Bangkok, Thailand
-
-2008 Warisan Gallery **“Archipelgo”** Bali, Indonesia
 
 2008 Ganesha Gallery **“This side of paradise”** Bali, Indonesia
 
-2007 Sangolda **“Paradise now”** Goa, India
-
 2007 Michael Nagy Gallery **“Days future passed”** Sydney, Australia
-
-2007 Ganesha Gallery **“Days future Passed”** Bali, Indonesia
 
 2006 Galerie Indoasia **“Free transport”** Sao Paolo, Brazil
 
 2005 Ganesha Gallery **“Free transport”** Bali, Indonesia
-
-2004 Jengalla Gallery **“This is Baliwood”** Bali, Indonesia
-
-2003 Studio Assra **“Ganpati on speed”** Goa, India
-
-2001 Studio Assra **“National highway NH-17”** Goa, India
 
 2001 Vis-a-vis Gallery **“National highway NH-17”** Delhi, India
 
@@ -57,8 +43,6 @@ Lives between Australia, New Zealand, Indonesia and the Pacific.
 
 1992 Gucchaka Gallery **“One way”** Bali, Indonesia
 
-1992 Strand Gallery **“Shades of Bali”** Bali, Indonesia
-
 
 ## Selected Group Shows
 
@@ -66,7 +50,11 @@ Lives between Australia, New Zealand, Indonesia and the Pacific.
 
 2018 Cush Cush Gallery – **"The garden"** American Club, Singapore
 
-2007 Fontanihas Heritage Festival of the Arts - Panjim, Goa, India
+2015 Biasa Art Space, **“My exquisite corpse”**, Bali, Indonesia
+
+2014 Biasa Art Space, **“A collection of works by“**, Bali, Indonesia
+
+2010 Maha art Gallery, **“Paper power“**, Bali, Indonesia
 
 2005 Vas Felix Estate Gallery – Perth, Australia
 

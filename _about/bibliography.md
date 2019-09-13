@@ -29,26 +29,11 @@ image_align_bottom: true #true or empty
 2006, June    
 ‘_Livre Transport_’, VIVER BEM, Sao Paulo, Brazil
 
-2006, May   
-‘_Artista neozelandesa expoe obras na capital_’, JORNAL DCI - Sao Paulo, Brazil
-
-2006, May   
-‘_Sao Paulo Free Transport_’, REVISTA KAZA, Brazil
-
-2006, May   
-‘_Miudas_’, ESTADO DE SAO PAULO, Brazil
-
 2004, October   
 ‘_Ekspresi Bali di Ata Kanvas Dan Keramik Davina Stephens_’ by Agus Mulyadi Utomo, BALI POST,  Indonesia
 
-2004, August   
-‘_Baliwood_’ by Dr. Bob, BALI ADVERTISER, Indonesia
-
 2002, June   
 ‘_Davina Stephens Décor Artist_’ by Reetika Nijhawan, ELLE DÉCOR, India
-
-2002, January   
-‘_Arty Party_’ by Ethel Da Costa, THE HERALD, Goa, India
 
 2002, February   
 ‘_Davina: A life full of Fairy Tales_’, TIMES OF INDIA, DELHI TIMES by Sanghit Singh, India
@@ -56,20 +41,11 @@ image_align_bottom: true #true or empty
 2002, March   
 ‘_Beachside Stories'_ feature, FIRST CITY Magazine, India
 
-2002, February   
-‘_This Kiwi celebrates the colours of Life on her Canvas_’, HINDUSTAN TIMES by M. Mishra, India
-
-2002, February   
-‘_Don’t Analyse This_’ by A. Vishal, INDIAN EXPRESS, India
-
 2001, May   
 ‘_Davina Stephens New Zealander_’, L’OFFICIEL MAGAZINE, Mumbai India
 
 2001, May 15   
 ‘_Colour My World_’ by Ethel Da Costa, FEMINA MAGAZINE, India
-
-2001, January   
-‘_Artist of The week_’, THE HERALD, India
 
 2000, December   
 ‘_Nuansa Ceria: Studio Davina Stephens_’ by L. Rachmania, LARAS (DÉCOR MAGAZINE), Indonesia
