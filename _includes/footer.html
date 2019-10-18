@@ -138,7 +138,7 @@
             <span>
               {% include svg/use.html id="icn--facebook" class="facebook" %}
             </span>
-            <span><span class="hide_on_phones">Follow {{site.short_title}} on&nbsp;</span>Facebook</span>
+            <span>Facebook page: {{site.company.facebook_page | replace: "https://web.facebook.com/", "" }}</span>
           </a>
         </div>
         {% endif %}
@@ -149,7 +149,7 @@
             <span>
               {% include svg/use.html id="icn--instagram" class="instagram" %}
             </span>
-            <span><span class="hide_on_phones">Follow {{site.short_title}} on&nbsp;</span>Instagram</span>
+            <span>Instagram: {{site.company.instagram | replace: "https://www.instagram.com/", "" }}</span>
           </a>
         </div>
         {% endif %}
@@ -160,7 +160,7 @@
             <span>
               {% include svg/use.html id="icn--youtube" class="youtube" %}
             </span>
-            <span><span class="hide_on_phones">Subscribe to {{site.short_title}}&nbsp;</span>YouTube <span class="hide_on_phones">&nbsp;channel</span></span>
+            <span>YouTube: {{site.company.youtube | replace: "https://www.youtube.com/user/", ""/}}</span>
           </a>
         </div>
         {% endif %}
@@ -183,8 +183,7 @@
               {% include svg/use.html id="icn--email" class="email" %}
             </span>
             <span itemprop="email">
-              <span class="show_on_phones">Email</span>
-              <span class="hide_on_phones">{{site.company.email}}</span></span>
+              <span class="">{{site.company.email}}</span></span>
           </a>
         </div>
         {% endif %}

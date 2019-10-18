@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Paintings
+title: Artworks
 description: #
 image: /assets/p/paintings/davina-stephens-2017028.jpg
 caption:
