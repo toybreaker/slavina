@@ -8,10 +8,7 @@ image: /assets/p/others/davina-stephens-bio.jpg
 image_align_bottom: true #true or empty
 ---
 
-Born 24th August 1968  
-Wellington, New Zealand  
-Lives between Australia, New Zealand, Indonesia and the Pacific.
-
+Born 24th August 1968 Wellington, New Zealand Lives between Australia, New Zealand, Indonesia and the Pacific.
 
 ## Selected Solo Exhibitions
 
@@ -43,8 +40,9 @@ Lives between Australia, New Zealand, Indonesia and the Pacific.
 
 1992 Gucchaka Gallery **“One way”** Bali, Indonesia
 
-
 ## Selected Group Shows
+
+2019 Art•Bali, **“Speculative Memories”** Bali, Indonesia
 
 2019 Auckland Art Fair – Auckland, New Zealand
 
@@ -75,8 +73,6 @@ Lives between Australia, New Zealand, Indonesia and the Pacific.
 1995 Gallery 1A - Sydney, Australia
 
 1994 Galerie Du Rayon Vert - Wimereux, France
-
-
 
 ### Curriculum Vitae
 
