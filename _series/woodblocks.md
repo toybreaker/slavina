@@ -1,6 +1,6 @@
 ---
 layout: series
-title: Woodblocks Prints
+title: Woodblocks
 subtitle: Ancient printing technique, with today iconographic storytelling.
 description:
 publish: # notyet or blank
