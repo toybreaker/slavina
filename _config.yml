@@ -1,12 +1,12 @@
 title: Davina Stephens
 short_title: Davina
-subtitle: ""
-description: "Davina Stephens’ art is permeated by locally significant elements and atmospheres while evocating a global sensibility. Her celebration of the freedom of living, through story telling, the tropical travels scenes and her use of colour, conveys, using different materials, media and techniques, a unique recognisable character which took her artworks to international recognition."
+subtitle: ''
+description: 'Davina Stephens’ art is permeated by locally significant elements and atmospheres while evocating a global sensibility. Her celebration of the freedom of living, through story telling, the tropical travels scenes and her use of colour, conveys, using different materials, media and techniques, a unique recognisable character which took her artworks to international recognition.'
 keywords: acrylic, woodblocks, canvas, archipelago, painter, painting, New Zealander, New Zealand artist
 lang: en
-version: 1.2.2
-baseurl: ""
-url: "https://davinastephens.com"
+version: 1.2.3
+baseurl: ''
+url: 'https://davinastephens.com'
 qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
 
 company:
@@ -83,10 +83,10 @@ collections:
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
+      path: '' # an empty string here means all files in the project
+      type: 'posts'
     values:
-      layout: "painting"
+      layout: 'painting'
 
 tag_page_layout: post_index_tag
 tag_page_dir: ./

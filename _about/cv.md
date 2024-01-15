@@ -2,7 +2,7 @@
 layout: hero
 title: CV
 subtitle:
-description: "Selected Solo Exhibitions, Selected Group Shows. Born in Wellington, New Zealand, Davina has been living between Australia, Indonesia and the Pacific. She exhibited in Thailand, Brazil, USA, India, Singapore, France, Indonesia and Australia."
+description: 'Selected Solo Exhibitions, Selected Group Shows. Born in Wellington, New Zealand, Davina has been living between Australia, Indonesia and the Pacific. She exhibited in Thailand, Brazil, USA, India, Singapore, France, Indonesia and Australia.'
 publish: # notyet or blank
 image: /assets/p/others/davina-stephens-bio.jpg
 image_align_bottom: true #true or empty
@@ -43,8 +43,6 @@ Born 24th August 1968 Wellington, New Zealand Lives between Australia, New Zeala
 ## Selected Group Shows
 
 2019 Art•Bali, **'Speculative Memories'** Bali, Indonesia
-
-2019 Redbase Art Gallery, Auckland Art Fair - The Cloud, Auckland Waterfront, NZ
 
 2018 Cush Cush Gallery – **'The garden'** American Club, Singapore
 
