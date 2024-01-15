@@ -60,8 +60,6 @@ Born 24th August 1968 Wellington, New Zealand Lives between Australia, New Zeala
 
 2002 Fontainhas Heritage Festival of the Arts - Panjim, Goa, India
 
-1999 Ganesha Gallery - Bali, Indonesia
-
 1997 Mullumbimby Art Gallery - N.S.W, Australia
 
 1996 Galerie Du Rayon Vert - Wimereux, France
