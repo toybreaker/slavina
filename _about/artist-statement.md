@@ -2,12 +2,11 @@
 layout: hero
 title: Artist statement
 subtitle:
-description: 'My research is highly involved with archipelago items and island life, customs and visual emotions that run through the cultural lines of Asia and the Pacific as a whole.'
+description: "My research is highly involved with archipelago items and island life, customs and visual emotions that run through the cultural lines of Asia and the Pacific as a whole."
 publish: # notyet or blank
 image: /assets/p/others/davina-stephens-technique-woodblock.jpg
 image_align_bottom: #true or empty
 ---
-
 
 ## Layers of Life, Layers of Art
 
@@ -62,4 +61,3 @@ My work seeks to evoke an emotional connection, a sense of familiarity within th
 At its core, my artistic practice is an exploration of layered histories. Art is my way of bridging worlds—melding Eastern and Western influences, tradition and innovation, past and present.
 
 It is a lifelong journey, one that began on the beaches of Bali, extended to the peaks of the Himalayas, and continues to evolve with every new place, texture, and story I encounter.
-

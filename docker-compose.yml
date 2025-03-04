@@ -1,0 +1,9 @@
+services:
+  jekyll:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "4321:4321" # Updated to match ASTRO port also in Dockerfile
+    stdin_open: true
+    tty: true
