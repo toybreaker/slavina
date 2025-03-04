@@ -1,0 +1,12 @@
+[build]
+  publish = "_site"
+  command = "jekyll build"
+
+[build.environment]
+  RUBY_VERSION = "2.7.6"
+
+[[plugins]]
+  package = "netlify-plugin-jekyll-cache"
+
+[context.production]
+  environment = { JEKYLL_ENV = "production" }
